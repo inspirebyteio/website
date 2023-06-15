@@ -204,39 +204,40 @@ const Footer = () => {
                             <div className="footer-widget">
                                 <h4 className="title">Contact info</h4>
                                 <p>
-                                    245 Southern Street, Apt. 147 New York, USA
+                                    3rd Floor, Dev Bhoomi Tower, 86, Mussoorie
+                                    Rd, Malsi, Dehradun, Uttarakhand 248014
                                 </p>
                                 <ul className="address">
                                     <li>
                                         <a
                                             className="address-link"
-                                            href="tel:+12354569874"
+                                            href="tel:+919997033980"
                                         >
-                                            +12354 569 874
+                                            (+91) 99970 33980
                                         </a>
                                     </li>
                                     <li>
                                         <a
                                             className="address-link"
-                                            href="tel:+98745612398"
+                                            href="tel:+917351512142"
                                         >
-                                            +98745 612 398
+                                            (+91) 73515 12142
                                         </a>
                                     </li>
                                     <li>
                                         <a
                                             className="address-link"
-                                            href="mailto:info@example.com"
+                                            href="mailto:info@inspirebyte.io"
                                         >
-                                            info@example.com
+                                            info@inspirebyte.io
                                         </a>
                                     </li>
                                     <li>
                                         <a
                                             className="address-link"
-                                            href="mailto:info@example.com"
+                                            href="mailto:info@inspirebyte.io"
                                         >
-                                            www.example.com
+                                            www.inspirebyte.io
                                         </a>
                                     </li>
                                 </ul>
