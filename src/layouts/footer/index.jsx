@@ -250,18 +250,7 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-12">
                             <div className="copyright-info text-center">
-                                <p>
-                                    Copyright &copy; 2021 Made with{" "}
-                                    <i className="icofont-heart-alt"></i> By{" "}
-                                    <a
-                                        href="https://themeforest.net/user/codecarnival/portfolio"
-                                        target="_blank"
-                                        rel="noreferrer"
-                                    >
-                                        codecarnival
-                                    </a>
-                                    , All Rights Reserved
-                                </p>
+                                <p>Copyright &copy; InspireByte | 2023</p>
                             </div>
                         </div>
                     </div>
