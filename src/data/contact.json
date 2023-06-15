@@ -2,19 +2,19 @@
     {
         "id": 1,
         "classOption": "address-list mb-4 mb-xl-10 pb-2",
-        "title": "Office Addres",
-        "info": "245 Southern Street, Apartment no. 174 Central Twon, New Yourk, USA"
+        "title": "Office Address",
+        "info": "3rd Floor, Dev Bhoomi Tower, 86, Mussoorie Rd, Malsi, Dehradun, Uttarakhand 248014"
     },
     {
         "id": 2,
         "classOption": "address-list mb-4 mb-xl-10 pb-2",
-        "title": "Phone Number",
-        "info": "+12345 678 987 <br /> +98745 612 321"
+        "title": "Phone Numbers",
+        "info": "(+91) 99970 33980 <br /> (+91) 73515 12142"
     },
     {
         "id": 3,
         "classOption": "address-list",
         "title": "Web Address",
-        "info": "info@example.com <br /> www.example.com"
+        "info": "info@inspirebyte.io <br /> www.inspirebyte.io"
     }
 ]
