@@ -17,8 +17,8 @@ const FaqPage = () => {
                     <Header />
                     <PageBanner
                         title="FAQ"
-                        excerpt="Pleasure rationally encounter consequences <br />
-                        are extremely painful great oppurtunity"
+                        excerpt="We understand that you may have some questions about our IT service and consultancy firm. <br />
+                        To assist you, Here are some FAQ's, but do feel free to Contact us and get consultation."
                         image="./images/faq/1.png"
                     />
                     <AccordionContainer />
