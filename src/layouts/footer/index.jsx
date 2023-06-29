@@ -28,21 +28,21 @@ const Footer = () => {
                                     <li>
                                         <SocialIcon
                                             classOption="footer-social-link"
-                                            path="https://www.facebook.com/"
-                                            icon="icofont-facebook"
+                                            path="https://www.linkedin.com/company/inspirebyte/"
+                                            icon="icofont-linkedin"
                                         />
                                     </li>
                                     <li>
                                         <SocialIcon
                                             classOption="footer-social-link"
-                                            path="https://www.instagram.com/"
+                                            path="https://www.instagram.com/inspirebyte/"
                                             icon="icofont-instagram"
                                         />
                                     </li>
                                     <li>
                                         <SocialIcon
                                             classOption="footer-social-link"
-                                            path="https://twitter.com/"
+                                            path="https://twitter.com/InspireByte_"
                                             icon="icofont-twitter"
                                         />
                                     </li>
