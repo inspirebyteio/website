@@ -21,9 +21,10 @@ const IconBoxContainer = ({ classOption }) => {
                             subTitle="FEATURES"
                             title="We are <span class='text-primary'>different</span> because..."
                             excerptClassOption="mb-10"
-                            excerpt="Pleasure rationally encounter consequences that are extremely
-                            painful. Nor again is there anyone who loves or pursues or
-                            desires to obtain"
+                            excerpt="At the heart of our ethos, we prioritize 
+                            customer-centricity, leveraging our expertise to 
+                            solve problems, build businesses, and empower growth 
+                            through tailored IT solutions."
                         />
                         <Button
                             classOption="btn btn-lg btn-dark btn-hover-dark"
