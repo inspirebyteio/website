@@ -59,6 +59,7 @@ const App = () => {
                         path={`${process.env.PUBLIC_URL + "/contact"}`}
                         component={ContactPage}
                     />
+                    {/*
                     <Route
                         path={`${process.env.PUBLIC_URL + "/blog"}`}
                         component={BlogPage}
@@ -93,6 +94,7 @@ const App = () => {
                         path={`${process.env.PUBLIC_URL + "/category/:slug"}`}
                         component={BlogCategory}
                     />
+                        */}
                 </Switch>
             </NavScrollTop>
         </Router>
