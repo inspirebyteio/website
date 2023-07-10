@@ -60,9 +60,9 @@ const TestimonialContainer = () => {
                                 title="Don’t Believe us Check <span class='text-primary'>Clients</span> word"
                             />
                             <h5 className="happy-customer">
-                                More over{" "}
-                                <span className="font-weight-bold">2500</span>{" "}
-                                happy customer
+                                Over{" "}
+                                <span className="font-weight-bold">23</span>{" "}
+                                happy customers
                             </h5>
                         </div>
                         <div className="testimonial-carousel position-relative">

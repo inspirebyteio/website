@@ -17,11 +17,15 @@ const TeamContainer = ({ classOption }) => {
                                 subTitle="TEAM"
                                 title="People, <span class='text-primary'>Behind</span> the Screen"
                                 excerptClassOption="mb-5"
-                                excerpt="Pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain"
+                                excerpt="Our exceptional team at Inspirebyte consists of highly skilled professionals who collaborate to create innovative software solutions. With diverse expertise and a commitment to excellence, we drive business growth and deliver exceptional results for our clients."
                             />
                             <p className="high-light mb-8">
-                                Pleasure rationally encounter consequences that
-                                are extremely painful. Nor again is there
+                                Unleashing the collective brilliance of our team to pioneer extraordinary software solutions for your business.
+
+
+
+
+
                             </p>
                             <Button
                                 classOption="btn btn-lg btn-dark btn-hover-dark"
