@@ -34,22 +34,22 @@
                 "id": 1,
                 "className": "grid-item mb-7",
                 "icon": "./images/feature/logo/1.png",
-                "title": "Strong Security",
-                "excerpt": "Pleasure rationally encounter are extremely painful anyone who loves or pursues"
+                "title": "Inspiring Solutions",
+                "excerpt": "Innovative and transformative approaches that empower businesses and drive growth."
             },
             {
                 "id": 2,
                 "className": "grid-item card-mt-75 mb-7",
                 "icon": "./images/feature/logo/2.png",
-                "title": "Creative Idea",
-                "excerpt": "Pleasure rationally encounter are extremely painful anyone who loves or pursues"
+                "title": "Scalability and Flexibility",
+                "excerpt": "Ability to adapt and expand seamlessly to meet evolving needs and changing business requirements."
             },
             {
                 "id": 1,
                 "className": "grid-item mb-7",
                 "icon": "./images/feature/logo/3.png",
-                "title": "Best Service",
-                "excerpt": "Pleasure rationally encounter are extremely painful anyone who loves or pursues"
+                "title": "Reliability and Security",
+                "excerpt": "Consistent performance and robust protection of sensitive data, ensuring trust and minimizing risks."
             }
         ]
     },
