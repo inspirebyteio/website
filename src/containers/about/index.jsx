@@ -25,21 +25,18 @@ const AboutContainer = () => {
                                 classOption="title-section"
                                 subTitle="ABOUT US"
                                 title="Best <span class='text-primary'>
-                                    Digital Agency</span>
+                                Software Solutions provider</span>
                                 <br className='d-none d-xl-block' />
                                 in the Town"
                             />
                             <span className="date-meta">
-                                Scince 2001 <span className="hr"></span>
+                                Since 2020 <span className="hr"></span>
                             </span>
                             <p className="mb-5">
-                                Pleasure rationally encounter consequences that
-                                are extremely painful. Nor again is there anyone
-                                who loves or pursues or desires to obtain
+                                Revolutionizing businesses with tailored software solutions. Based in Dehradun, we deliver innovative, reliable, and scalable technology to drive your success. Unlock your business's true potential with us today.
                             </p>
                             <p className="high-light mb-8">
-                                Pleasure rationally encounter consequences that
-                                are extremely painful. Nor again is there
+                                Harnessing technology to redefine success and drive exponential growth.
                             </p>
                             <Button
                                 classOption="btn btn-lg btn-dark btn-hover-dark"
