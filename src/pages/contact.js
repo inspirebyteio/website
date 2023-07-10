@@ -17,8 +17,8 @@ const ContactPage = () => {
                     <Header />
                     <PageBanner
                         title="Contact us"
-                        excerpt="Pleasure rationally encounter consequences <br />
-                        are extremely painful great oppurtunity"
+                        excerpt="Reach Out to Us and Ignite Your Business's Transformation. <br />
+                        We would love to hear from you and discuss how Inspirebyte can help drive your business to new heights. Our dedicated team of experts is ready to collaborate, innovate, and deliver tailored solutions that propel your success in the digital era. Contact us now to start your journey towards transformative results."
                         image="./images/contact/1.png"
                     />
                     <ContactContainer />

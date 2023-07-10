@@ -17,8 +17,7 @@ const TeamPage = () => {
                     <Header />
                     <PageBanner
                         title="Our Team"
-                        excerpt="Pleasure rationally encounter consequences <br />
-                        are extremely painful great oppurtunity"
+                        excerpt="Our exceptional team at Inspirebyte consists of highly skilled professionals who collaborate to create innovative software solutions. With diverse expertise and a commitment to excellence, we drive business growth and deliver exceptional results for our clients."
                         image="./images/team/5.png"
                     />
                     <TeampPageContainer />
