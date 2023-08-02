@@ -25,13 +25,14 @@ const HomePage = () => {
                     <IntroContainer />
                     <BrandContainer />
                     <IconBoxContainer classOption="section-pb" />
+                    <FunFactContainer classOption="mt-10 mt-lg-0" />
                     <HomeAboutContainer />
                     <ServiceListContainer />
                     <TestimonialContainer />
-                    <FunFactContainer classOption="mt-10 mt-lg-0" />
+
                     <TeamContainer classOption="section-pb" />
                     {/*<HomeBlog />*/}
-                    <NewsletterArea />
+                    {/*<NewsletterArea />*/}
                     <Footer />
                     <ScrollToTop />
                 </div>
