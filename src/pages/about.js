@@ -27,10 +27,11 @@ const AboutPage = () => {
                     />
                     <IconBoxContainer classOption="section-pt" />
                     <BrandContainer />
+                    <FunFactContainer classOption="mt-0 mt-lg-0" />
                     <AboutContainer />
                     <ServiceListContainer />
                     <TestimonialReverse />
-                    <FunFactContainer classOption="mt-0 mt-lg-0" />
+
                     <Footer />
                     <ScrollToTop />
                 </div>
