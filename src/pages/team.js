@@ -21,7 +21,6 @@ const TeamPage = () => {
                         image="./images/team/5.png"
                     />
                     <TeampPageContainer />
-                    <NewsletterArea />
                     <Footer />
                     <ScrollToTop />
                 </div>

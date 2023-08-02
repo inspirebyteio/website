@@ -30,7 +30,6 @@ const ServiceDetails = ({
                         image="/images/service/2.png"
                     />
                     <ServiceDetailsContainer data={data[0]} />
-                    <NewsletterArea />
                     <Footer />
                     <ScrollToTop />
                 </div>

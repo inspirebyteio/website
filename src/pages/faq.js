@@ -22,7 +22,6 @@ const FaqPage = () => {
                         image="./images/faq/1.png"
                     />
                     <AccordionContainer />
-                    <NewsletterArea />
                     <Footer />
                     <ScrollToTop />
                 </div>

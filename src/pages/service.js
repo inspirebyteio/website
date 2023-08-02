@@ -29,7 +29,6 @@ const ServicePage = () => {
                     <FunFactContainer classOption="mt-0 mt-lg-0" />
                     <TeamContainer classOption="null" />
                     <BrandContainer />
-                    <NewsletterArea />
                     <Footer />
                     <ScrollToTop />
                 </div>

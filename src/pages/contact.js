@@ -22,7 +22,6 @@ const ContactPage = () => {
                         image="./images/contact/1.png"
                     />
                     <ContactContainer />
-                    <NewsletterArea />
                     <Footer />
                     <ScrollToTop />
                 </div>

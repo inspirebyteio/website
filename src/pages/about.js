@@ -31,7 +31,6 @@ const AboutPage = () => {
                     <ServiceListContainer />
                     <TestimonialReverse />
                     <FunFactContainer classOption="mt-0 mt-lg-0" />
-                    <NewsletterArea />
                     <Footer />
                     <ScrollToTop />
                 </div>
