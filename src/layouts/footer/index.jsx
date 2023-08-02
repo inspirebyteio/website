@@ -21,8 +21,7 @@ const Footer = () => {
                                     image={`${process.env.PUBLIC_URL}/images/logo/logo-footer.png`}
                                 />
                                 <p>
-                                    Pleasure rationally encounter consequences
-                                    that extremely painful. Nor again is there
+                                    Stay Connected and Follow Us for the Latest Updates
                                 </p>
                                 <ul className="footer-social-links">
                                     <li>
@@ -79,30 +78,10 @@ const Footer = () => {
                                                 "/service"
                                             }
                                         >
-                                            Pricing Plan
+                                            Services
                                         </Link>
                                     </li>
-                                    <li>
-                                        <Link
-                                            className="footer-link"
-                                            to={
-                                                process.env.PUBLIC_URL +
-                                                "/about"
-                                            }
-                                        >
-                                            Conditions
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link
-                                            className="footer-link"
-                                            to={
-                                                process.env.PUBLIC_URL + "/blog"
-                                            }
-                                        >
-                                            Blog Post
-                                        </Link>
-                                    </li>
+
                                     <li>
                                         <Link
                                             className="footer-link"
@@ -110,7 +89,7 @@ const Footer = () => {
                                                 process.env.PUBLIC_URL + "/team"
                                             }
                                         >
-                                            Our Clients
+                                            Our Team
                                         </Link>
                                     </li>
                                     <li>
@@ -122,6 +101,17 @@ const Footer = () => {
                                             }
                                         >
                                             Contact us
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link
+                                            className="footer-link"
+                                            to={
+                                                process.env.PUBLIC_URL +
+                                                "/faq"
+                                            }
+                                        >
+                                            FAQs
                                         </Link>
                                     </li>
                                 </ul>
@@ -136,10 +126,21 @@ const Footer = () => {
                                             className="footer-link"
                                             to={
                                                 process.env.PUBLIC_URL +
+                                                `/service-details/1`
+                                            }
+                                        >
+                                            Full Stack Software Development
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link
+                                            className="footer-link"
+                                            to={
+                                                process.env.PUBLIC_URL +
                                                 `/service-details/2`
                                             }
                                         >
-                                            Business Plan
+                                            IT Consulting
                                         </Link>
                                     </li>
                                     <li>
@@ -150,7 +151,7 @@ const Footer = () => {
                                                 `/service-details/3`
                                             }
                                         >
-                                            Creative Strategy
+                                            Data And Cloud Solutions
                                         </Link>
                                     </li>
                                     <li>
@@ -161,7 +162,7 @@ const Footer = () => {
                                                 `/service-details/4`
                                             }
                                         >
-                                            Branding{" "}
+                                            Business Process Automation
                                         </Link>
                                     </li>
                                     <li>
@@ -172,7 +173,7 @@ const Footer = () => {
                                                 `/service-details/1`
                                             }
                                         >
-                                            Digital Solution
+                                            CRM Solutions
                                         </Link>
                                     </li>
                                     <li>
@@ -183,20 +184,10 @@ const Footer = () => {
                                                 `/service-details/5`
                                             }
                                         >
-                                            Marketing Policy
+                                            API Integration And Development
                                         </Link>
                                     </li>
-                                    <li>
-                                        <Link
-                                            className="footer-link"
-                                            to={
-                                                process.env.PUBLIC_URL +
-                                                `/service-details/6`
-                                            }
-                                        >
-                                            Campaign &amp; PR
-                                        </Link>
-                                    </li>
+
                                 </ul>
                             </div>
                         </div>
