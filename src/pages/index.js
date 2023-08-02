@@ -11,6 +11,7 @@ import HomeAboutContainer from "../containers/home/about";
 import HomeBlog from "../containers/home/blog";
 import IntroContainer from "../containers/home/intro";
 import ServiceListContainer from "../containers/service/service-list";
+import ContactContainer from "../containers/contact";
 import Footer from "../layouts/footer";
 import Header from "../layouts/header";
 import Layout from "../layouts/index";
@@ -31,6 +32,7 @@ const HomePage = () => {
                     <TestimonialContainer />
 
                     <TeamContainer classOption="section-pb" />
+                    <ContactContainer />
                     {/*<HomeBlog />*/}
                     {/*<NewsletterArea />*/}
                     <Footer />
