@@ -21,11 +21,6 @@ const TeamContainer = ({ classOption }) => {
                             />
                             <p className="high-light mb-8">
                                 Unleashing the collective brilliance of our team to pioneer extraordinary software solutions for your business.
-
-
-
-
-
                             </p>
                             <Button
                                 classOption="btn btn-lg btn-dark btn-hover-dark"
@@ -34,14 +29,27 @@ const TeamContainer = ({ classOption }) => {
                             />
                         </div>
                     </div>
-                    <div className="col-lg-7">
+                    <div className="col-lg-7 order-lg-second ">
+                        <div
+                            className="about-photo scene text-center text-lg-left"
+                            id="scene"
+                        >
+                            <div data-depth="0.2">
+                                <img
+                                    src={`${process.env.PUBLIC_URL}/images/banner/1.png`}
+                                    alt="team"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    {/*<div className="col-lg-7">
                         <div className="new-team-members">
                             {HomeData[5].team &&
                                 HomeData[5].team.map((single, key) => {
                                     return <Team key={key} data={single} />;
                                 })}
-                        </div>
-                    </div>
+                            </div>
+                            </div>*/}
                 </div>
             </div>
         </div>
