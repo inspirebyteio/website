@@ -1,27 +1,27 @@
 [
     {
         "id": 1,
-        "thumb": "./images/team/1.png",
+        "thumb": "/images/team/1.png",
         "name": "Sandeep Maurya",
         "designation": "Automation Maestro"
     },
     {
         "id": 2,
-        "thumb": "./images/team/2.png",
+        "thumb": "/images/team/2.png",
         "name": "Sujeet Painuly",
         "designation": "Full Stack Wizard"
     },
     {
         "id": 3,
-        "thumb": "./images/team/3.png",
+        "thumb": "/images/team/3.png",
         "name": "Kuleep Singh Bisht",
         "designation": "Business Matchmaker"
     },
     {
         "id": 4,
-        "thumb": "./images/team/4.png",
+        "thumb": "/images/team/4.png",
         "name": "Mohit Gauniyal",
-        "designation": "Python Jedi",
+        "designation": "Analytical Alchemist",
         "linkedin": "https://www.linkedin.com/in/mohitgauniyal/"
     }
 ]

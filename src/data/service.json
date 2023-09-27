@@ -1,9 +1,9 @@
 [
     {
         "id": 1,
-        "icon": "./images/service/icon/1.png",
+        "icon": "/images/service/icon/1.png",
         "smallIcon": "/images/service/icon/small/1.png",
-        "image": "./images/service/3.png",
+        "image": "/images/service/3.png",
         "title": "Full Stack Software Development",
         "categories": [
             "Full Stack Software Development",
@@ -23,9 +23,9 @@
     },
     {
         "id": 2,
-        "icon": "./images/service/icon/2.png",
+        "icon": "/images/service/icon/2.png",
         "smallIcon": "/images/service/icon/small/2.png",
-        "image": "./images/service/3.png",
+        "image": "/images/service/3.png",
         "title": "IT Consulting",
         "categories": [
             "Full Stack Software Development",
@@ -44,9 +44,9 @@
     },
     {
         "id": 3,
-        "icon": "./images/service/icon/3.png",
+        "icon": "/images/service/icon/3.png",
         "smallIcon": "/images/service/icon/small/3.png",
-        "image": "./images/service/3.png",
+        "image": "/images/service/3.png",
         "title": "Data and Cloud Solutions",
         "categories": [
             "Full Stack Software Development",
@@ -66,9 +66,9 @@
     },
     {
         "id": 4,
-        "icon": "./images/service/icon/4.png",
+        "icon": "/images/service/icon/4.png",
         "smallIcon": "/images/service/icon/small/4.png",
-        "image": "./images/service/3.png",
+        "image": "/images/service/3.png",
         "title": "Business Process Automation",
         "categories": [
             "Full Stack Software Development",
@@ -88,9 +88,9 @@
     },
     {
         "id": 5,
-        "icon": "./images/service/icon/5.png",
+        "icon": "/images/service/icon/5.png",
         "smallIcon": "/images/service/icon/small/7.png",
-        "image": "./images/service/3.png",
+        "image": "/images/service/3.png",
         "title": "CRM Solutions",
         "categories": [
             "Full Stack Software Development",
@@ -110,9 +110,9 @@
     },
     {
         "id": 6,
-        "icon": "./images/service/icon/6.png",
+        "icon": "/images/service/icon/6.png",
         "smallIcon": "/images/service/icon/small/8.png",
-        "image": "./images/service/3.png",
+        "image": "/images/service/3.png",
         "title": "API Integration and Development",
         "categories": [
             "Full Stack Software Development",
