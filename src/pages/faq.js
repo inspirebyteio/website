@@ -19,7 +19,7 @@ const FaqPage = () => {
                         title="FAQ"
                         excerpt="We understand that you may have some questions about our IT service and consultancy firm. <br />
                         To assist you, Here are some FAQ's, but do feel free to Contact us and get consultation."
-                        image="./images/faq/1.png"
+                        image="/images/faq/1.png"
                     />
                     <AccordionContainer />
                     <Footer />
