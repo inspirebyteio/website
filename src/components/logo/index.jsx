@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
 const Logo = ({ image, classOption }) => {
-  const mobileWidth = '90%'; // Width for mobile devices
+  const mobileWidth = '100%'; // Width for mobile devices
   const defaultWidth = '65%'; // Default width for larger screens
 
   return (
