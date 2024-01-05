@@ -5,6 +5,7 @@ const Testimonial = ({ data }) => {
         <div className="testimonial-slide-item swiper-slide">
             <span className="quote zmdi zmdi-quote"></span>
             <p className="testimonial-text mt-2 mb-5">{data.excerpt}</p>
+            <a href={data.profile} target="_blank">
             <div className="avater d-flex">
                 <div className="avater-profile">
                     <img
@@ -12,11 +13,12 @@ const Testimonial = ({ data }) => {
                         alt="avater"
                     />
                 </div>
-                <div className="avater-info">
+                <div className="avater-info"> 
                     <p>{data.name}</p>
                     <span>{data.designation}</span>
                 </div>
             </div>
+            </a>
         </div>
     );
 };
