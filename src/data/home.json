@@ -13,22 +13,26 @@
             {
                 "id": 1,
                 "image": "./images/brand-logo/offerquick.png",
-                "profile": "https://offerquick.com/"
+                "profile": "https://offerquick.com/",
+                "name": "OfferQuick"
             },
             {
                 "id": 2,
                 "image": "./images/brand-logo/2.png",
-                "profile": "https://www.instagram.com/inspirebyte/"
+                "profile": "https://www.instagram.com/inspirebyte/",
+                "name": "Placeholder"
             },
             {
                 "id": 3,
                 "image": "./images/brand-logo/3.png",
-                "profile": "https://www.instagram.com/inspirebyte/"
+                "profile": "https://www.instagram.com/inspirebyte/",
+                "name": "Placeholder"
             },
             {
                 "id": 4,
                 "image": "./images/brand-logo/4.png",
-                "profile": "https://www.instagram.com/inspirebyte/"
+                "profile": "https://www.instagram.com/inspirebyte/",
+                "name": "Placeholder"
             }
         ]
     },
