@@ -11,6 +11,7 @@ const Testimonial = ({ data }) => {
                     <img
                         src={process.env.PUBLIC_URL + data.authorThumb}
                         alt="avater"
+                        style={{ borderRadius: '50%'}}
                     />
                 </div>
                 <div className="avater-info"> 
