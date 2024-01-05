@@ -17,15 +17,18 @@
             },
             {
                 "id": 2,
-                "image": "./images/brand-logo/2.png"
+                "image": "./images/brand-logo/2.png",
+                "profile": "https://www.instagram.com/inspirebyte/"
             },
             {
                 "id": 3,
-                "image": "./images/brand-logo/3.png"
+                "image": "./images/brand-logo/3.png",
+                "profile": "https://www.instagram.com/inspirebyte/"
             },
             {
                 "id": 4,
-                "image": "./images/brand-logo/4.png"
+                "image": "./images/brand-logo/4.png",
+                "profile": "https://www.instagram.com/inspirebyte/"
             }
         ]
     },
@@ -69,14 +72,16 @@
                 "excerpt": "Pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires maintain",
                 "authorThumb": "./images/testimonial/2.png",
                 "name": "John Loyed",
-                "designation": "CEO, Omex"
+                "designation": "CEO, Omex",
+                "profile": "https://www.instagram.com/inspirebyte/"
             },
             {
                 "id": 3,
                 "excerpt": "Pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires maintain",
                 "authorThumb": "./images/testimonial/avater.png",
                 "name": "David Loyed",
-                "designation": "CEO, Omex"
+                "designation": "CEO, Omex",
+                "profile": "https://www.instagram.com/inspirebyte/"
             }
         ]
     },
