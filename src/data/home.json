@@ -12,7 +12,8 @@
         "brand": [
             {
                 "id": 1,
-                "image": "./images/brand-logo/offerquick.png"
+                "image": "./images/brand-logo/offerquick.png",
+                "profile": "https://offerquick.com/"
             },
             {
                 "id": 2,
