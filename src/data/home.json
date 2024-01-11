@@ -18,9 +18,9 @@
             },
             {
                 "id": 2,
-                "image": "./images/brand-logo/2.png",
-                "profile": "https://www.instagram.com/inspirebyte/",
-                "name": "Placeholder"
+                "image": "./images/brand-logo/AlexMoloneyRealEstate.png",
+                "profile": "https://alexmoloney.com/",
+                "name": "Alex Moloney Real Estate"
             },
             {
                 "id": 3,
@@ -68,16 +68,18 @@
                 "excerpt": "There is a reason I always come back to InspireByte when I need help with Business CRM automations. Communication is great, we work through bug fixes together, and the job always gets done right. 5/5 stars would recommend!",
                 "authorThumb": "./images/testimonial/harris.png",
                 "name": "HARRIS TRAIL",
+                "location": "North Carolina",
                 "designation": "CEO, OfferQuick",
                 "profile": "https://www.instagram.com/harristrail/"
             },
             {
                 "id": 2,
-                "excerpt": "Pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires maintain",
-                "authorThumb": "./images/testimonial/2.png",
-                "name": "John Loyed",
-                "designation": "CEO, Omex",
-                "profile": "https://www.instagram.com/inspirebyte/"
+                "excerpt": "I have collaborated with Inspirebyte for several years and recently engaged them for a new project. Inspirebyte consistently demonstrates reliability, timeliness, and a proactive approach to problem-solving in custom programming, significantly enhancing our CRM systems. I highly recommend Inspirebyte for their expertise and valuable contributions.",
+                "authorThumb": "./images/testimonial/AlexMoloney.png",
+                "name": "Alex Moloney",
+                "location": "Toronto, Canada",
+                "designation": "Founder, Alex Moloney Real Estate",
+                "profile": "https://alexmoloneyhomes.com/"
             },
             {
                 "id": 3,
