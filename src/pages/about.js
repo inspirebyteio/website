@@ -22,7 +22,7 @@ const AboutPage = () => {
                     <Header />
                     <PageBanner
                         title="About us"
-                        excerpt="Based in Dehradun, Inspirebyte is a dynamic software solutions firm dedicated to transforming businesses through innovative and tailor-made solutions. Our team of tech artisans collaborates closely with clients, delivering reliable, secure, and scalable software. Let us be your trusted partner in driving digital excellence and unlocking your business's true potential. Contact us today to embark on a transformative journey."
+                        excerpt="Based in Dehradun, we're a dynamic software solutions firm dedicated to innovating and tailoring solutions for businesses. Our tech artisans specialize in system development, business automations, API integrations, and software development. We collaborate closely with clients, delivering reliable, secure, and scalable solutions to drive digital excellence. Let's transform your business together — contact us today!"
                         image="./images/banner/1.png"
                     />
                     <IconBoxContainer classOption="section-pt" />
