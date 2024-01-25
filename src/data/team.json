@@ -4,14 +4,14 @@
         "thumb": "./images/team/1.png",
         "name": "Sandeep Maurya",
         "designation": "Automation Maestro",
-        "linkedin":""
+        "linkedin":"https://www.linkedin.com/in/sandeepmaurya1/"
     },
     {
         "id": 2,
         "thumb": "./images/team/2.png",
         "name": "Sujeet Painuly",
         "designation": "Full Stack Wizard",
-        "linkedin":""
+        "linkedin":"https://www.linkedin.com/in/sujeetpainuly/"
     },
     {
         "id": 3,
