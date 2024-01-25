@@ -3,19 +3,22 @@
         "id": 1,
         "thumb": "./images/team/1.png",
         "name": "Sandeep Maurya",
-        "designation": "Automation Maestro"
+        "designation": "Automation Maestro",
+        "linkedin":""
     },
     {
         "id": 2,
         "thumb": "./images/team/2.png",
         "name": "Sujeet Painuly",
-        "designation": "Full Stack Wizard"
+        "designation": "Full Stack Wizard",
+        "linkedin":""
     },
     {
         "id": 3,
         "thumb": "./images/team/3.png",
         "name": "Kuleep Singh Bisht",
-        "designation": "Business Matchmaker"
+        "designation": "Business Matchmaker",
+        "linkedin":"https://www.linkedin.com/in/kuldeepsinghbisht/"
     },
     {
         "id": 4,
