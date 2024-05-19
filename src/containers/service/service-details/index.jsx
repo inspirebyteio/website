@@ -17,9 +17,6 @@ const ServiceDetailsContainer = ({ data }) => {
                         <div className="sidbar-widget float-start w-100">
                             <ServiceCate data={ServiceData} />
                         </div>
-                        <div className="sidbar-widget float-start w-100 mt-10 mb-10">
-                            <Brochure />
-                        </div>
                     </div>
                 </div>
                 <div className="col-12">
