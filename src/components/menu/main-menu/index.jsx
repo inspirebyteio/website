@@ -18,49 +18,11 @@ const MainMenu = () => {
                     <NavLink to={process.env.PUBLIC_URL + "/service"}>
                         Service
                     </NavLink>
-
-                    <ul className="sub-menu">
-                        <li className="sub-menu-item">
-                            <NavLink
-                                className="sub-menu-link"
-                                to={process.env.PUBLIC_URL + "/service"}
-                            >
-                                Service
-                            </NavLink>
-                        </li>
-                        <li className="sub-menu-item">
-                            <NavLink
-                                className="sub-menu-link"
-                                to={
-                                    process.env.PUBLIC_URL +
-                                    "/service-details/1"
-                                }
-                            >
-                                single service
-                            </NavLink>
-                        </li>
-                    </ul>
                 </li>
                 <li>
-                    <NavLink to="/">Pages</NavLink>
-                    <ul className="sub-menu">
-                        <li className="sub-menu-item">
-                            <NavLink
-                                className="sub-menu-link"
-                                to={process.env.PUBLIC_URL + "/faq"}
-                            >
-                                faq
-                            </NavLink>
-                        </li>
-                        <li className="sub-menu-item">
-                            <NavLink
-                                className="sub-menu-link"
-                                to={process.env.PUBLIC_URL + "/team"}
-                            >
-                                team
-                            </NavLink>
-                        </li>
-                    </ul>
+                    <NavLink to={process.env.PUBLIC_URL + "/team"}>
+                        Team
+                    </NavLink>                   
                 </li>
                 {/*
                 <li>
