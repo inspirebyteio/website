@@ -5,6 +5,7 @@ import AboutPage from "./pages/about";
 import ServicePage from "./pages/service";
 import ServiceDetails from "./templates/service-details";
 import TeamPage from "./pages/team";
+import ProjectsPage from "./pages/projects";
 import FaqPage from "./pages/faq";
 import BlogPage from "./pages/blog";
 import BlogLeftSidebarPage from "./pages/blog-left-sidebar";
@@ -50,6 +51,10 @@ const App = () => {
                     <Route
                         path={`${process.env.PUBLIC_URL + "/team"}`}
                         component={TeamPage}
+                    />
+                    <Route
+                        path={`${process.env.PUBLIC_URL + "/projects"}`}
+                        component={ProjectsPage}
                     />
                     <Route
                         path={`${process.env.PUBLIC_URL + "/faq"}`}
