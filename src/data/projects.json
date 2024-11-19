@@ -1,0 +1,182 @@
+[
+  {
+    "id": "1",
+    "name": "Real Estate CRM System",
+    "description": "A fully customizable CRM system designed for real estate investors and agencies to manage leads, automate workflows, and enhance marketing efforts.",
+    "type": ["Web", "Business Automation"],
+    "industries": ["Real Estate"],
+    "features": [
+      "Lead Management",
+      "Mass Email Campaigns",
+      "Workflow Automation",
+      "Detailed Analytics Dashboard"
+    ],
+    "image": "images/projects/project-placeholder.png",
+    "website": "https://xyzrealestatecrm.com"
+  },
+  {
+    "id": "2",
+    "name": "E-commerce Integration Platform",
+    "description": "A platform enabling seamless integration between multiple e-commerce platforms for unified order and inventory management.",
+    "type": ["Web", "Automation"],
+    "industries": ["E-commerce"],
+    "features": [
+      "Multi-platform Integration",
+      "Real-time Inventory Sync",
+      "Order Processing Automation",
+      "Customizable Reporting Tools"
+    ],
+    "image": "images/projects/project-placeholder.png",
+    "website": "https://onlinestorehub.com"
+  },
+  {
+    "id": "3",
+    "name": "AI-driven Chatbot for Customer Support",
+    "description": "An intelligent chatbot powered by AI to provide 24/7 support, resolve customer queries, and enhance user experience.",
+    "type": ["Automation", "AI", "Backend"],
+    "industries": ["Customer Support", "SaaS"],
+    "features": [
+      "Natural Language Processing",
+      "Sentiment Analysis",
+      "Multi-language Support",
+      "Integration with CRM"
+    ],
+    "image": "images/projects/project-placeholder.png",
+    "website": "https://helpdeskpro.com"
+  },
+  {
+    "id": "4",
+    "name": "Healthcare Appointment Scheduler",
+    "description": "A scheduling tool for hospitals and clinics to streamline appointment booking and patient management.",
+    "type": ["Web", "Business Automation"],
+    "industries": ["Healthcare"],
+    "features": [
+      "Real-time Availability Check",
+      "Automated Reminders",
+      "Patient Profile Management",
+      "Integration with EHR Systems"
+    ],
+    "image": "images/projects/project-placeholder.png",
+    "website": "https://medschedpro.com"
+  },
+  {
+    "id": "5",
+    "name": "Smart Home Automation App",
+    "description": "A mobile app for controlling smart home devices, managing routines, and monitoring energy usage.",
+    "type": ["Phone", "Automation"],
+    "industries": ["Home Automation"],
+    "features": [
+      "Device Control via App",
+      "Customizable Routines",
+      "Energy Usage Tracking",
+      "Voice Assistant Integration"
+    ],
+    "image": "images/projects/project-placeholder.png",
+    "website": "https://smarthomelink.com"
+  },
+  {
+    "id": "6",
+    "name": "Educational Learning Management System",
+    "description": "A robust LMS platform designed to facilitate online learning, track student progress, and provide analytics.",
+    "type": ["Web"],
+    "industries": ["Education"],
+    "features": [
+      "Course Management",
+      "Progress Tracking",
+      "Interactive Assessments",
+      "Data Analytics for Educators"
+    ],
+    "image": "images/projects/project-placeholder.png",
+    "website": "https://smartlmsedu.com"
+  },
+  {
+    "id": "7",
+    "name": "Fleet Management System",
+    "description": "A software solution for logistics companies to track, manage, and optimize fleet operations.",
+    "type": ["Web", "Business Automation"],
+    "industries": ["Logistics"],
+    "features": [
+      "GPS Tracking",
+      "Maintenance Scheduling",
+      "Route Optimization",
+      "Driver Performance Monitoring"
+    ],
+    "image": "images/projects/project-placeholder.png",
+    "website": "https://fleetoptimizer.com"
+  },
+  {
+    "id": "8",
+    "name": "Social Media Analytics Dashboard",
+    "description": "An analytics tool providing insights into social media performance for businesses and influencers.",
+    "type": ["Web", "Analytics"],
+    "industries": ["Marketing"],
+    "features": [
+      "Engagement Metrics",
+      "Competitor Analysis",
+      "Content Performance Insights",
+      "Customizable Dashboards"
+    ],
+    "image": "images/projects/project-placeholder.png",
+    "website": "https://socialanalyzr.com"
+  },
+  {
+    "id": "9",
+    "name": "Inventory Management System",
+    "description": "A scalable solution for managing stock levels, tracking sales, and automating reorder processes.",
+    "type": ["Web", "Business Automation"],
+    "industries": ["Retail", "E-commerce"],
+    "features": [
+      "Stock Level Alerts",
+      "Reorder Automation",
+      "Barcode Integration",
+      "Sales and Inventory Reports"
+    ],
+    "image": "images/projects/project-placeholder.png",
+    "website": "https://inventorymaster.com"
+  },
+  {
+    "id": "10",
+    "name": "Restaurant Ordering System",
+    "description": "A digital menu and ordering system for restaurants to streamline operations and enhance customer experiences.",
+    "type": ["Web", "Phone", "Automation"],
+    "industries": ["Hospitality"],
+    "features": [
+      "Digital Menu Display",
+      "Order and Table Management",
+      "Integration with POS Systems",
+      "Customer Feedback Collection"
+    ],
+    "image": "images/projects/project-placeholder.png",
+    "website": "https://dineorderpro.com"
+  },
+  {
+    "id": "11",
+    "name": "Custom Web Scraper for Market Research",
+    "description": "A bespoke web scraping tool designed to extract and analyze data from multiple online sources.",
+    "type": ["Backend", "Automation"],
+    "industries": ["Market Research"],
+    "features": [
+      "Targeted Data Extraction",
+      "Real-time Updates",
+      "Data Cleaning Tools",
+      "Export to Multiple Formats"
+    ],
+    "image": "images/projects/project-placeholder.png",
+    "website": "https://datascrapeplus.com"
+  },
+  {
+    "id": "12",
+    "name": "Blockchain-based Asset Tracker",
+    "description": "A decentralized system for securely tracking and verifying ownership of digital and physical assets.",
+    "type": ["Web", "Backend", "Blockchain"],
+    "industries": ["Finance", "Technology"],
+    "features": [
+      "Decentralized Ledger",
+      "Secure Ownership Verification",
+      "Smart Contract Integration",
+      "Asset History Reports"
+    ],
+    "image": "images/projects/project-placeholder.png",
+    "website": "https://blocktrack.io"
+  }
+]

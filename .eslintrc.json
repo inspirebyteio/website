@@ -1,5 +1,5 @@
 {
-    "parser": "babel-eslint",
+    "parser": "@babel/eslint-parser",
     "root": true,
     "extends": [
         "plugin:react/recommended",
@@ -36,7 +36,12 @@
         "react/require-default-props": 0,
         "react-hooks/rules-of-hooks": "error",
         "react-hooks/exhaustive-deps": "warn",
-        "prettier/prettier": "error",
+        "prettier/prettier": [
+            "error",
+            {
+                "endOfLine": "crlf"
+            }
+            ],
         "jsx-a11y/label-has-associated-control": [
             "error",
             {
