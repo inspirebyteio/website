@@ -1,6 +1,8 @@
 import React from "react";
 import ProjectCard from "../../components/project-card";
 import ProjectsData from "../../data/projects.json";
+import SectionTitle from "../../components/section-title";
+
 
 const Projects = () => {
     return (

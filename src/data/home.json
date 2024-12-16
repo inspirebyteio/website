@@ -88,6 +88,14 @@
                 "name": "Rafael Cortez",
                 "designation": "CEO, Pulse LLC",
                 "profile": "https://www.instagram.com/rafaelcortezceo/"
+            },
+            {
+                "id": 4,
+                "excerpt": "InspireByte designed a highly complex scraper for us, and it's working flawlessly. They've been fantastic to work with—always quick to respond, consistently helping us resolve issues. We highly recommend them and look forward to relying on their expertise for future projects.",
+                "authorThumb": "./images/testimonial/anthony.png",
+                "name": "Anthony Fazio",
+                "designation": "Founder, Modernized Investments LLC",
+                "profile": "https://modernizedinvestments.com"
             }
         ]
     },
@@ -95,12 +103,12 @@
         "funfact": [
             {
                 "id": 1,
-                "number": 67,
+                "number": 150,
                 "title": "Projects done"
             },
             {
                 "id": 2,
-                "number": 42,
+                "number": 85,
                 "title": "Happy Clients"
             },
             {
