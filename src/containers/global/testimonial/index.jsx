@@ -61,7 +61,7 @@ const TestimonialContainer = () => {
                             />
                             <h5 className="happy-customer">
                                 Over{" "}
-                                <span className="font-weight-bold">32</span>{" "}
+                                <span className="font-weight-bold">85</span>{" "}
                                 happy customers
                             </h5>
                         </div>

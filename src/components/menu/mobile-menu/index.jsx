@@ -56,10 +56,22 @@ const MobileMenu = ({ show, onClose }) => {
                                 </NavLink>
                             </li>
                             <li>
+                                <NavLink to={process.env.PUBLIC_URL + "/service"}>
+                                    Service
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink to={process.env.PUBLIC_URL + "/projects"}>
+                                    Projects
+                                </NavLink>
+                            </li>
+                            <li>
                                 <NavLink to={process.env.PUBLIC_URL + "/about"}>
                                     About
                                 </NavLink>
                             </li>
+
+                            {/*
                             <li>
                                 <NavLink
                                     to={process.env.PUBLIC_URL + "/service"}
@@ -94,6 +106,8 @@ const MobileMenu = ({ show, onClose }) => {
                                     </li>
                                 </ul>
                             </li>
+
+                            
                             <li>
                                 <NavLink to="/">Pages</NavLink>
                                 <span
@@ -120,7 +134,7 @@ const MobileMenu = ({ show, onClose }) => {
                                     </li>
                                 </ul>
                             </li>
-                            {/*
+                            
                             <li>
                                 <NavLink to={process.env.PUBLIC_URL + "/blog"}>
                                     Blog

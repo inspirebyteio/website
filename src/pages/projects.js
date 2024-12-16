@@ -2,6 +2,7 @@ import React from "react";
 import ScrollToTop from "../components/scroll-to-top";
 import SEO from "../components/seo";
 import PageBanner from "../containers/global/page-banner";
+import TestimonialContainer from "../containers/global/testimonial";
 import Projects from "../containers/projects";
 import Footer from "../layouts/footer";
 import Header from "../layouts/header";
@@ -29,6 +30,7 @@ const ProjectsPage = () => {
                         image="./images/team/5.png"
                     />
                     <Projects />
+                    <TestimonialContainer />
                     <Footer />
                     <ScrollToTop />
                 </div>
