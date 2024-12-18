@@ -39,7 +39,7 @@
         "prettier/prettier": [
             "error",
             {
-                "endOfLine": "auto"
+                "endOfLine": "crlf"
             }
             ],
         "jsx-a11y/label-has-associated-control": [
