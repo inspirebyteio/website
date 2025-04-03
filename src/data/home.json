@@ -96,6 +96,14 @@
                 "name": "Anthony Fazio",
                 "designation": "Founder, Modernized Investments LLC",
                 "profile": "https://modernizedinvestments.com"
+            },
+            {
+                "id": 5,
+                "excerpt": "InspireByte is amazing to work with. They have strong technical expertise in Podio, Globiflow, and integrations with other apps. They are also very responsive, and I would trust them with future projects.",
+                "authorThumb": "./images/testimonial/neumann.png",
+                "name": "Ethan  Neumann",
+                "designation": "Neumann Homes and Rehab",
+                "profile": "https://ethanneumann.com/"
             }
         ]
     },
