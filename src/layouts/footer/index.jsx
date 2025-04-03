@@ -27,7 +27,7 @@ const Footer = () => {
                                     <li>
                                         <SocialIcon
                                             classOption="footer-social-link"
-                                            path="https://www.linkedin.com/company/inspirebyte/"
+                                            path="https://www.linkedin.com/company/inspirebyteio/"
                                             icon="icofont-linkedin"
                                         />
                                     </li>
