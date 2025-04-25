@@ -15,6 +15,7 @@ const Intro = ({ data }) => {
 
         return () => parallaxInstance.disable();
     }, []);
+
     return (
         <div className="hero-slider">
             <div className="container">
@@ -25,6 +26,15 @@ const Intro = ({ data }) => {
                                 className="title animated"
                                 dangerouslySetInnerHTML={{ __html: data.title }}
                             ></h2>
+
+                            {/* Hidden SEO Content */}
+                            <div style={{ display: 'none' }}>
+                                <h2>Transform Your Business with Inspirebyte</h2>
+                                <p>
+                                    We specialize in providing innovative and tailored software solutions that streamline your business processes.
+                                </p>
+                            </div>
+
                             <Button
                                 classOption="btn btn-lg animated delay1 btn-dark btn-hover-dark me-4 mb-3 mb-sm-0"
                                 text="Learn More"
@@ -47,7 +57,7 @@ const Intro = ({ data }) => {
                                 <img
                                     className="animated"
                                     src={`${process.env.PUBLIC_URL}/${data.image}`}
-                                    alt=""
+                                    alt="hero image"
                                 />
                             </div>
                         </div>
