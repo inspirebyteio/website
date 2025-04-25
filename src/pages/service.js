@@ -14,7 +14,7 @@ const ServicePage = () => {
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="InspireByte – Service" />
+                <SEO title="InspireByte – Expert Software Solutions & Business Process Automation" />
                 <div className="wrapper">
                     <Header />
                     <PageBanner
