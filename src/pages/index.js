@@ -20,7 +20,14 @@ const HomePage = () => {
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="InspireByte | Innovate, Integrate, Elevate" />
+                <SEO
+                    title="InspireByte | Innovate, Integrate, Elevate"
+                    description="InspireByte delivers custom software solutions, business automation, and IT services tailored to transform your operations. We help businesses innovate, integrate, and elevate with smart, scalable technology."
+                    keywords="InspireByte, custom software development, business automation, IT services, workflow automation, software solutions, digital transformation, InspireByte India, technology consulting"
+                    author="InspireByte"
+                    ogTitle="InspireByte | Innovate, Integrate, Elevate"
+                    ogDescription="Empowering businesses with cutting-edge software solutions, automation, and technology consulting. Discover how InspireByte can drive your digital success."
+                />
                 <div className="wrapper">
                     <Header />
                     <IntroContainer />
