@@ -40,7 +40,7 @@ const ServiceCate = ({ data }) => {
                                     `/service-details/${slugify(single.id)}`
                                 }
                             >
-                                <img src={single.smallIcon} alt="logo" />
+                                <img src={single.smallIcon} alt={single.title} />
                                 {single.title}
                             </NavLink>
                         </li>
