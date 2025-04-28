@@ -5,7 +5,7 @@ const ProjectCard = ({ data }) => {
     return (
         <div className="project-card">
             <div className="thumb">
-                <img src={process.env.PUBLIC_URL + data.image} alt="img" />
+                <img src={process.env.PUBLIC_URL + data.image} alt={`${data.description}, ${data.type}`} />
             </div>
             <div className="content">
                 <h3 className="title">{data.name}</h3>

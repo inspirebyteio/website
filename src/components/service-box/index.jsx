@@ -8,7 +8,7 @@ const ServiceBox = ({ data }) => {
             <img
                 className="logo"
                 src={process.env.PUBLIC_URL + data.icon}
-                alt=" service logo"
+                alt={data.categories}
             />
             <div className="service-media-body">
                 <h4 className="title">

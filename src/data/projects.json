@@ -11,8 +11,8 @@
       "Comprehensive Support and Training",
       "Effortless Data Management"
     ],
-    "image": "images/projects/revisor.gif",
-    "website": "https://smarthomelink.com"
+    "image": "images/projects/revisor_real_estate_investment_system.gif",
+    "website": ""
   },
   {
     "id": "2",
@@ -27,8 +27,8 @@
       "Automated Follow-Up System",
       "KPI Dashboard & Tracking"
     ],
-    "image": "images/projects/test_prj_3.gif",
-    "website": "https://onlinestorehub.com"
+    "image": "images/projects/Podio_REI_System_Automation.gif",
+    "website": ""
   },
   {
     "id": "3",
@@ -42,8 +42,8 @@
       "Autorun",
       "Desktop GUI"
     ],
-    "image": "images/projects/test_prj_1.gif",
-    "website": "https://helpdeskpro.com"
+    "image": "images/projects/Data_Scraper_CSV_Generator.gif",
+    "website": ""
   },
   {
     "id": "4",
@@ -58,7 +58,7 @@
       "Integration with EHR Systems"
     ],
     "image": "images/projects/project-placeholder.png",
-    "website": "https://medschedpro.com"
+    "website": ""
   },
   {
     "id": "5",
@@ -72,7 +72,7 @@
       "Workflow Automation",
       "Detailed Analytics Dashboard"
     ],
-    "image": "images/projects/test_prj_2.gif",
-    "website": "https://xyzrealestatecrm.com"
+    "image": "images/projects/Ford_Dealership_data_Scraping.gif",
+    "website": ""
   }
 ]
