@@ -12,7 +12,15 @@ const ContactPage = () => {
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="InspireByte – Contact" />
+                <SEO
+                    title="InspireByte – Contact"
+                    description="Get in touch with InspireByte for customized software solutions, business automation, and IT services. Our team is ready to help transform your business with innovative technology and expert collaboration."
+                    keywords="InspireByte contact, business automation services, custom software development, IT services, technology consulting, business solutions"
+                    image="/images/contact/1.png"
+                    author="InspireByte"
+                    ogTitle="Contact InspireByte"
+                    ogDescription="Reach out to InspireByte to discover how our team can help your business achieve transformative results through tailored technology solutions and expert support."
+                />
                 <div className="wrapper">
                     <Header />
                     <PageBanner
