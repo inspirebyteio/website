@@ -1,3 +1,4 @@
+/* prettier-ignore */
 import React from "react";
 import PropTypes from "prop-types";
 import NewsletterArea from "../containers/global/newsletter";
@@ -20,7 +21,18 @@ const ServiceDetails = ({
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="InspireByte – Service Details" />
+                <SEO
+                    title={`InspireByte – ${data[0]?.title}`}
+                    description={
+                        data[0]?.excerpt ||
+                        "Explore the detailed service offerings of InspireByte."
+                    }
+                    keywords={`InspireByte, ${data[0]?.title}, ${data[0]?.excerpt}`}
+                    image="/images/service/2.png"
+                    author="InspireByte"
+                    ogTitle={`InspireByte – ${data[0]?.title}`}
+                    ogDescription={data[0]?.excerpt}
+                />
                 <div className="wrapper">
                     <Header />
                     <PageBanner
