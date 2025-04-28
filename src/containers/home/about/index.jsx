@@ -29,7 +29,7 @@ const HomeAboutContainer = () => {
                                 Software Solutions provider
                                 </span>
                                 <br className='d-none d-xl-block' />
-                                in the Town"
+                                in Dehradun"
                             />
                             <span className="date-meta">
                                 Since 2020 <span className="hr"></span>
@@ -43,7 +43,7 @@ const HomeAboutContainer = () => {
                             <Button
                                 classOption="btn btn-lg btn-dark btn-hover-dark"
                                 text="Learn more"
-                                path="/about"
+                                path="/service"
                             />
                         </div>
                     </div>
