@@ -12,7 +12,15 @@ const ProjectsPage = () => {
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="InspireByte – Projects" />
+                <SEO
+                    title="InspireByte – Projects"
+                    description="Explore InspireByte's portfolio of past projects, featuring custom software development, advanced business automation, seamless integrations, and IT services tailored to diverse client needs."
+                    keywords="InspireByte projects, custom software development, business automation, IT services, backend systems, software solutions, system integrations"
+                    image="/images/team/5.png"
+                    author="InspireByte"
+                    ogTitle="InspireByte – Projects"
+                    ogDescription="Explore InspireByte's showcase of past projects delivering innovative technology solutions, efficient processes, and impactful results."
+                />
                 <div className="wrapper">
                     <Header />
                     <PageBanner
