@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const PageTitle = ({ title, excerpt }) => {
     return (
         <div className="banner-content banner-padding">
-            <h3 className="title">{title}</h3>
+            <h1 className="title">{title}</h1>
             <p dangerouslySetInnerHTML={{ __html: excerpt }}></p>
         </div>
     );

@@ -22,18 +22,10 @@ const Intro = ({ data }) => {
                 <div className="row align-items-center">
                     <div className="col-lg-6">
                         <div className="hero-slide-content">
-                            <h2
+                            <h1
                                 className="title animated"
                                 dangerouslySetInnerHTML={{ __html: data.title }}
-                            ></h2>
-
-                            {/* Hidden SEO Content */}
-                            <div style={{ display: 'none' }}>
-                                <h2>Transform Your Business with Inspirebyte</h2>
-                                <p>
-                                    We specialize in providing innovative and tailored software solutions that streamline your business processes.
-                                </p>
-                            </div>
+                            ></h1>
 
                             <Button
                                 classOption="btn btn-lg animated delay1 btn-dark btn-hover-dark me-4 mb-3 mb-sm-0"
@@ -57,7 +49,7 @@ const Intro = ({ data }) => {
                                 <img
                                     className="animated"
                                     src={`${process.env.PUBLIC_URL}/${data.image}`}
-                                    alt="hero image"
+                                    alt="inspirebyte hero section image"
                                 />
                             </div>
                         </div>

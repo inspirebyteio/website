@@ -36,8 +36,8 @@ const TeamContainer = ({ classOption }) => {
                         >
                             <div data-depth="0.2">
                                 <img
-                                    src={`${process.env.PUBLIC_URL}/images/banner/1.png`}
-                                    alt="team"
+                                    src={`${process.env.PUBLIC_URL}/images/banner/inspirebyte-team-banner.png`}
+                                    alt="inspirebyte-team-banner"
                                 />
                             </div>
                         </div>

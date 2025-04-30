@@ -38,7 +38,7 @@ const ServiceDetails = ({
                     <PageBanner
                         title={data[0]?.title}
                         excerpt={data[0]?.excerpt}
-                        image="/images/service/2.png"
+                        image="/images/service/inspirebyte-services.png"
                     />
                     <ServiceDetailsContainer data={data[0]} />
                     <Footer />

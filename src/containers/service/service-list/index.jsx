@@ -34,8 +34,8 @@ const ServiceListContainer = () => {
                     <div className="col-xl-4 mb-7 order-md-1 order-xl-0">
                         <div className="service-media-img text-center">
                             <img
-                                src={`${process.env.PUBLIC_URL}/images/service/media.png`}
-                                alt="images_not_found"
+                                src={`${process.env.PUBLIC_URL}/images/service/inspirebyte-services.png`}
+                                alt="Inspirebyte services"
                             />
                         </div>
                     </div>

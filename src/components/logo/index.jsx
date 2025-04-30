@@ -13,7 +13,7 @@ const Logo = ({ image, classOption }) => {
         style={{
           width: defaultWidth, // Default width for larger screens
         }}
-        alt="Logo"
+        alt="Inspirebyte-Logo"
       />
       <style>
         {`

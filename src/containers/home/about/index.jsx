@@ -55,8 +55,8 @@ const HomeAboutContainer = () => {
                         >
                             <div data-depth="0.2">
                                 <img
-                                    src={`${process.env.PUBLIC_URL}/images/about/1.png`}
-                                    alt="about"
+                                    src={`${process.env.PUBLIC_URL}/images/about/inspirebyte-about.png`}
+                                    alt="inspirebyte-about"
                                 />
                             </div>
                         </div>
@@ -65,8 +65,8 @@ const HomeAboutContainer = () => {
             </div>
             <img
                 className="about-shape"
-                src={`${process.env.PUBLIC_URL}/images/about/shape.png`}
-                alt="bg-shape"
+                src={`${process.env.PUBLIC_URL}/images/about/inspirebyte-about-shape.png`}
+                alt="inspirebyte-about-shape"
             />
         </div>
     );

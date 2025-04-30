@@ -16,7 +16,7 @@ const ContactPage = () => {
                     title="InspireByte – Contact"
                     description="Get in touch with InspireByte for customized software solutions, business automation, and IT services. Our team is ready to help transform your business with innovative technology and expert collaboration."
                     keywords="InspireByte contact, business automation services, custom software development, IT services, technology consulting, business solutions"
-                    image="/images/contact/1.png"
+                    image="/images/contact/inspirebyte-contact.png"
                     author="InspireByte"
                     ogTitle="Contact InspireByte"
                     ogDescription="Reach out to InspireByte to discover how our team can help your business achieve transformative results through tailored technology solutions and expert support."
@@ -27,7 +27,7 @@ const ContactPage = () => {
                         title="Contact us"
                         excerpt="Reach Out to Us and Ignite Your Business's Transformation. <br />
                         We would love to hear from you and discuss how Inspirebyte can help drive your business to new heights. Our dedicated team of experts is ready to collaborate, innovate, and deliver tailored solutions that propel your success in the digital era. Contact us now to start your journey towards transformative results."
-                        image="./images/contact/1.png"
+                        image="./images/contact/inspirebyte-contact.png"
                     />
                     <ContactContainer />
                     <Footer />

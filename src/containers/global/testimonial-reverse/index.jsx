@@ -80,8 +80,8 @@ const TestimonialReverse = () => {
                         >
                             <div data-depth="0.2">
                                 <img
-                                    src={`${process.env.PUBLIC_URL}/images/testimonial/1.png`}
-                                    alt="Buznex"
+                                    src={`${process.env.PUBLIC_URL}/images/testimonial/inspirebyte-testimonials.png`}
+                                    alt="inspirebyte-testimonials"
                                 />
                             </div>
                         </div>
