@@ -9,14 +9,14 @@ const IntroContainer = () => {
         <div className="section position-relative" aria-label="Intro Section - Inspirebyte">
             <div className="hero-shape1">
                 <img
-                    src={`${process.env.PUBLIC_URL}/images/slider/shape/shape1.png`}
-                    alt="Decorative shape element 1"
+                    src={`${process.env.PUBLIC_URL}/images/slider/shape/inspirebyte-slider-shape1.png`}
+                    alt="inspirebyte-slider-Decorative shape element 1"
                 />
             </div>
             <div className="hero-shape2">
                 <img
-                    src={`${process.env.PUBLIC_URL}/images/slider/shape/shape2.png`}
-                    alt="Decorative shape element 2"
+                    src={`${process.env.PUBLIC_URL}/images/slider/shape/inspirebyte-slider-shape2.png`}
+                    alt="inspirebyte-slider-Decorative shape element 2"
                 />
             </div>
 

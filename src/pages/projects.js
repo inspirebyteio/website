@@ -16,7 +16,7 @@ const ProjectsPage = () => {
                     title="InspireByte – Projects"
                     description="Explore InspireByte's portfolio of past projects, featuring custom software development, advanced business automation, seamless integrations, and IT services tailored to diverse client needs."
                     keywords="InspireByte projects, custom software development, business automation, IT services, backend systems, software solutions, system integrations"
-                    image="/images/team/5.png"
+                    image="/images/service/inspirebyte-projects.png"
                     author="InspireByte"
                     ogTitle="InspireByte – Projects"
                     ogDescription="Explore InspireByte's showcase of past projects delivering innovative technology solutions, efficient processes, and impactful results."
@@ -35,7 +35,7 @@ const ProjectsPage = () => {
                         systems to creating seamless integrations, our work 
                         highlights the depth and versatility of our solutions.
                         "
-                        image="./images/team/5.png"
+                        image="./images/service/inspirebyte-projects.png"
                     />
                     <Projects />
                     <TestimonialContainer />

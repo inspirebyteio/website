@@ -10,8 +10,8 @@ const IconBoxContainer = ({ classOption }) => {
         <div className={`feature-section position-relative ${classOption}`}>
             <img
                 className="path-img"
-                src={`${process.env.PUBLIC_URL}/images/feature/shape.png`}
-                alt="images_not_found"
+                src={`${process.env.PUBLIC_URL}/images/feature/inspirebyte-shape.png`}
+                alt="inspirebyte-shape"
             />
             <div className="container custom-container">
                 <div className="row g-0 align-items-center">

@@ -10,7 +10,7 @@ const IconBox = ({ data }) => {
                 <img
                     className="logo"
                     src={process.env.PUBLIC_URL + data.icon}
-                    alt=" feature logo"
+                    alt="inspirebyte feature logo"
                 />
                 <h4 className="title my-6">
                     <Link to={process.env.PUBLIC_URL + "/service-details/1"}>

@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="footer-top position-relative">
                 <img
                     className="footer-shape"
-                    src={process.env.PUBLIC_URL + "/images/footer/1.png"}
+                    src={process.env.PUBLIC_URL + "/images/footer/inspirebyte-footer.png"}
                     alt="shape"
                 />
                 <div className="container">
@@ -18,7 +18,7 @@ const Footer = () => {
                             <div className="footer-widget">
                                 <Logo
                                     classOption="footer-logo mb-9"
-                                    image={`${process.env.PUBLIC_URL}/images/logo/logo-footer.png`}
+                                    image={`${process.env.PUBLIC_URL}/images/logo/inspirebyte-logo-footer.png`}
                                 />
                                 <p>
                                     Stay Connected and Follow Us for the Latest Updates

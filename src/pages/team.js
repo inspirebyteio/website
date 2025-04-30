@@ -16,7 +16,7 @@ const TeamPage = () => {
                     title="InspireByte – Our Team"
                     description="Meet the InspireByte team — a group of skilled professionals dedicated to delivering innovative software solutions, business automation, and IT services that drive business growth and success."
                     keywords="InspireByte team, software experts, business automation specialists, IT service professionals, custom software development team, InspireByte professionals"
-                    image="/images/team/5.png"
+                    image="/images/team/inspirebyte-team.png"
                     author="InspireByte"
                     ogTitle="Meet Our Team – InspireByte"
                     ogDescription="Discover the talented professionals behind InspireByte's success. Our team combines innovation, expertise, and a passion for driving transformative results for businesses."
@@ -26,7 +26,7 @@ const TeamPage = () => {
                     <PageBanner
                         title="Our Team"
                         excerpt="Our exceptional team at Inspirebyte consists of highly skilled professionals who collaborate to create innovative software solutions. With diverse expertise and a commitment to excellence, we drive business growth and deliver exceptional results for our clients."
-                        image="./images/team/5.png"
+                        image="./images/team/inspirebyte-team.png"
                     />
                     <TeampPageContainer />
                     <Footer />

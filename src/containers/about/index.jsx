@@ -53,8 +53,8 @@ const AboutContainer = () => {
                         >
                             <div data-depth="0.2">
                                 <img
-                                    src={`${process.env.PUBLIC_URL}/images/about/2.png`}
-                                    alt="about"
+                                    src={`${process.env.PUBLIC_URL}/images/about/inspirebyte-about.png`}
+                                    alt="inspirebyte-about"
                                 />
                             </div>
                         </div>
