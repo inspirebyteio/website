@@ -12,25 +12,25 @@
         "brand": [            
             {
                 "id": 1,
-                "image": "./images/brand-logo/AlexMoloneyRealEstate.png",
+                "image": "./images/brand-logo/AlexMoloneyRealEstate.webp",
                 "profile": "https://alexmoloney.com/",
                 "name": "Alex Moloney Real Estate"
             },
             {
                 "id": 2,
-                "image": "./images/brand-logo/pulse.png",
+                "image": "./images/brand-logo/pulse.webp",
                 "profile": "https://pulsellc.com/",
                 "name": "Pulse LLC"
             },
             {
                 "id": 3,
-                "image": "./images/brand-logo/offerquick.png",
+                "image": "./images/brand-logo/offerquick.webp",
                 "profile": "https://offerquick.com/",
                 "name": "OfferQuick"
             },
             {
                 "id": 4,
-                "image": "./images/brand-logo/modernizedinvestmentsllc.png",
+                "image": "./images/brand-logo/modernizedinvestmentsllc.webp",
                 "profile": "https://www.modernizedinvestments.com/",
                 "name": "Modernized Investments LLC"
             }
@@ -66,7 +66,7 @@
             {
                 "id": 1,
                 "excerpt": "I have collaborated with Inspirebyte for several years and recently engaged them for a new project. Inspirebyte consistently demonstrates reliability, timeliness, and a proactive approach to problem-solving in custom programming, significantly enhancing our systems. I highly recommend Inspirebyte for their expertise and valuable contributions.",
-                "authorThumb": "./images/testimonial/AlexMoloney.png",
+                "authorThumb": "./images/testimonial/AlexMoloney.webp",
                 "name": "Alex Moloney",
                 "location": "Toronto, Canada",
                 "designation": "Founder, Alex Moloney Real Estate",
@@ -75,7 +75,7 @@
             {
                 "id": 2,
                 "excerpt": "There is a reason I always come back to InspireByte when I need help with Business CRM automations. Communication is great, we work through bug fixes together, and the job always gets done right. 5/5 stars would recommend!",
-                "authorThumb": "./images/testimonial/harris.png",
+                "authorThumb": "./images/testimonial/harris.webp",
                 "name": "HARRIS TRAIL",
                 "location": "North Carolina",
                 "designation": "CEO, OfferQuick",
@@ -84,7 +84,7 @@
             {
                 "id": 3,
                 "excerpt": "I hired Inspirebyte to complete a Podio automation, and their work was on point. Knowledgeable, reliable, and very easy to communicate with. Will definitely be using their services again.",
-                "authorThumb": "./images/testimonial/rafael.png",
+                "authorThumb": "./images/testimonial/rafael.webp",
                 "name": "Rafael Cortez",
                 "designation": "CEO, Pulse LLC",
                 "profile": "https://www.instagram.com/rafaelcortezceo/"
@@ -92,7 +92,7 @@
             {
                 "id": 4,
                 "excerpt": "InspireByte designed a highly complex scraper for us, and it's working flawlessly. They've been fantastic to work with—always quick to respond, consistently helping us resolve issues. We highly recommend them and look forward to relying on their expertise for future projects.",
-                "authorThumb": "./images/testimonial/anthony.png",
+                "authorThumb": "./images/testimonial/anthony.webp",
                 "name": "Anthony Fazio",
                 "designation": "Founder, Modernized Investments LLC",
                 "profile": "https://modernizedinvestments.com"
@@ -100,7 +100,7 @@
             {
                 "id": 5,
                 "excerpt": "InspireByte is amazing to work with. They have strong technical expertise in Podio, Globiflow, and integrations with other apps. They are also very responsive, and I would trust them with future projects.",
-                "authorThumb": "./images/testimonial/neumann.png",
+                "authorThumb": "./images/testimonial/neumann.webp",
                 "name": "Ethan  Neumann",
                 "designation": "Neumann Homes and Rehab",
                 "profile": "https://ethanneumann.com/"

@@ -1,28 +1,28 @@
 [
     {
         "id": 1,
-        "thumb": "./images/team/Sandeep Maurya.png",
+        "thumb": "./images/team/Sandeep Maurya.webp",
         "name": "Sandeep Maurya",
         "designation": "Automation Maestro",
         "linkedin":"https://www.linkedin.com/in/sandeepmaurya1/"
     },
     {
         "id": 2,
-        "thumb": "./images/team/Sujeet Painuly.png",
+        "thumb": "./images/team/Sujeet Painuly.webp",
         "name": "Sujeet Painuly",
         "designation": "Full Stack Wizard",
         "linkedin":"https://www.linkedin.com/in/sujeetpainuly/"
     },
     {
         "id": 3,
-        "thumb": "./images/team/Kuldeep Singh Bisht.png",
+        "thumb": "./images/team/Kuldeep Singh Bisht.webp",
         "name": "Kuldeep Singh Bisht",
         "designation": "Business Matchmaker",
         "linkedin":"https://www.linkedin.com/in/kuldeepsinghbisht/"
     },
     {
         "id": 4,
-        "thumb": "./images/team/Mohit Gauniyal.png",
+        "thumb": "./images/team/Mohit Gauniyal.webp",
         "name": "Mohit Gauniyal",
         "designation": "Software Craftsman",
         "linkedin": "https://www.linkedin.com/in/mohitgauniyal/"
