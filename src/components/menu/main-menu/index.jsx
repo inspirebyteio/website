@@ -28,54 +28,7 @@ const MainMenu = () => {
                     <NavLink to={process.env.PUBLIC_URL + "/about"}>
                         About
                     </NavLink>
-                </li>                
-                {/*
-                <li>
-                    <NavLink to={process.env.PUBLIC_URL + "/blog"}>
-                        Blog
-                    </NavLink>
-                    <ul className="sub-menu">
-                        <li className="sub-menu-item">
-                            <NavLink
-                                className="sub-menu-link"
-                                to={process.env.PUBLIC_URL + "/blog"}
-                            >
-                                Blog
-                            </NavLink>
-                        </li>
-                        <li className="sub-menu-item">
-                            <NavLink
-                                className="sub-menu-link"
-                                to={
-                                    process.env.PUBLIC_URL +
-                                    "/blog-left-sidebar"
-                                }
-                            >
-                                blog grid left sidebar
-                            </NavLink>
-                        </li>
-                        <li className="sub-menu-item">
-                            <NavLink
-                                className="sub-menu-link"
-                                to={
-                                    process.env.PUBLIC_URL +
-                                    "/blog-right-sidebar"
-                                }
-                            >
-                                blog grid right sidebar
-                            </NavLink>
-                        </li>
-                        <li className="sub-menu-item">
-                            <NavLink
-                                className="sub-menu-link"
-                                to={process.env.PUBLIC_URL + "/blog-details/1"}
-                            >
-                                blog details
-                            </NavLink>
-                        </li>
-                    </ul>
-                </li>
-                            */}
+                </li>                                
                 <li>
                     <NavLink to={process.env.PUBLIC_URL + "/contact"}>
                         Contact
