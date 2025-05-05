@@ -12,25 +12,25 @@
         "brand": [            
             {
                 "id": 1,
-                "image": "/images/brand-logo/AlexMoloneyRealEstate.webp",
+                "image": "/images/brand-logo/AlexMoloneyRealEstate.png",
                 "profile": "https://alexmoloney.com/",
                 "name": "Alex Moloney Real Estate"
             },
             {
                 "id": 2,
-                "image": "/images/brand-logo/pulse.webp",
+                "image": "/images/brand-logo/pulse.png",
                 "profile": "https://pulsellc.com/",
                 "name": "Pulse LLC"
             },
             {
                 "id": 3,
-                "image": "/images/brand-logo/offerquick.webp",
+                "image": "/images/brand-logo/offerquick.png",
                 "profile": "https://offerquick.com/",
                 "name": "OfferQuick"
             },
             {
                 "id": 4,
-                "image": "/images/brand-logo/modernizedinvestmentsllc.webp",
+                "image": "/images/brand-logo/modernizedinvestmentsllc.png",
                 "profile": "https://www.modernizedinvestments.com/",
                 "name": "Modernized Investments LLC"
             }
