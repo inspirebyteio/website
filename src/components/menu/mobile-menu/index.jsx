@@ -39,7 +39,7 @@ const MobileMenu = ({ show, onClose }) => {
                     <div className="offcanvas-header">
                         <Logo
                             classOption="offcanvas-logo d-inline-block"
-                            image={`${process.env.PUBLIC_URL}/images/logo/logo.png`}
+                            image={`${process.env.PUBLIC_URL}/images/logo/inspirebyte-logo.png`}
                         />
                         <button
                             type="button"
