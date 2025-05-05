@@ -33,7 +33,7 @@ const TestimonialContainer = () => {
         <div className="testimonial-section section-py position-relative">
             <img
                 className="tetimonial-shape"
-                src={`${process.env.PUBLIC_URL}/images/testimonial/inspirebyte-testimonial-shape.webp`}
+                src={`${process.env.PUBLIC_URL}/images/testimonial/inspirebyte-testimonial-shape.png`}
                 alt="inspirebyte-testimonial-shape"
             />
             <div className="container">
@@ -46,7 +46,7 @@ const TestimonialContainer = () => {
                         >
                             <div data-depth="0.2">
                                 <img
-                                    src={`${process.env.PUBLIC_URL}/images/testimonial/inspirebyte-testimonials.webp`}
+                                    src={`${process.env.PUBLIC_URL}/images/testimonial/inspirebyte-testimonials.png`}
                                     alt="inspirebyte-testimonials"
                                 />
                             </div>
