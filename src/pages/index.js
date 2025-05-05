@@ -38,8 +38,6 @@ const HomePage = () => {
 
                     <TeamContainer classOption="section-pb" />
                     <ContactContainer />
-                    {/*<HomeBlog />*/}
-                    {/*<NewsletterArea />*/}
                     <Footer />
                     <ScrollToTop />
                 </div>

@@ -28,7 +28,7 @@ const ServiceDetails = ({
                         "Explore the detailed service offerings of InspireByte."
                     }
                     keywords={`InspireByte, ${data[0]?.title}, ${data[0]?.excerpt}`}
-                    image="/images/service/2.png"
+                    image="/images/service/2.webp"
                     author="InspireByte"
                     ogTitle={`InspireByte – ${data[0]?.title}`}
                     ogDescription={data[0]?.excerpt}
@@ -38,7 +38,7 @@ const ServiceDetails = ({
                     <PageBanner
                         title={data[0]?.title}
                         excerpt={data[0]?.excerpt}
-                        image="/images/service/inspirebyte-services.png"
+                        image="/images/service/inspirebyte-services.webp"
                     />
                     <ServiceDetailsContainer data={data[0]} />
                     <Footer />
