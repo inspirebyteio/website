@@ -1,10 +1,22 @@
 import React from "react";
-import PropTypes from "prop-types";
+import { useParams } from "react-router-dom";
 import ServiceDetails from "../../../components/service-details";
 import ServiceCate from "../../../components/sidebar/service-cate";
 import ServiceData from "../../../data/service.json";
 
-const ServiceDetailsContainer = ({ data }) => {
+const ServiceDetailsContainer = () => {
+    const { link } = useParams();
+    const data = ServiceData.find(service => service.link === link);
+
+    if (!data) {
+        return (
+            <div className="single-service section-py text-center">
+                <h2>Service Not Found</h2>
+                <p>The service you're looking for does not exist.</p>
+            </div>
+        );
+    }
+
     return (
         <div className="single-service section-py">
             <div className="container">
@@ -18,16 +30,12 @@ const ServiceDetailsContainer = ({ data }) => {
                         </div>
                     </div>
                 </div>
-                <div className="col-12">
-                    <p>{data.bodyBottom}</p>
+                <div className="col-12 mt-4">
+                    <div dangerouslySetInnerHTML={{ __html: data.bodyBottom }} />
                 </div>
             </div>
         </div>
     );
-};
-
-ServiceDetailsContainer.propTypes = {
-    data: PropTypes.object,
 };
 
 export default ServiceDetailsContainer;

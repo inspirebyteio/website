@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
-import { slugify } from "../../utils";
+
 
 const ServiceBox = ({ data }) => {
     return (
@@ -15,7 +15,7 @@ const ServiceBox = ({ data }) => {
                     <Link
                         to={
                             process.env.PUBLIC_URL +
-                            `/service-details/${slugify(data.id)}`
+                            `/service-details/${data.link}`
                         }
                     >
                         {data.title}

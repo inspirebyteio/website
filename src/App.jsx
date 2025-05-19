@@ -56,7 +56,7 @@ const RoutesWithTracking = () => {
                     component={ServicePage}
                 />
                 <Route
-                    path={`${process.env.PUBLIC_URL + "/service-details/:id"}`}
+                    path={`${process.env.PUBLIC_URL + "/service-details/:link"}`}
                     component={ServiceDetails}
                 />
                 <Route

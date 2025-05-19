@@ -13,34 +13,48 @@ import SEO from "../components/seo";
 
 const ServiceDetails = ({
     match: {
-        params: { id },
+        params: { link },
     },
 }) => {
-    const serviceId = parseInt(id, 10);
-    const data = ServiceData.filter((service) => service.id === serviceId);
+    const data = ServiceData.find((service) => service.link === link);
+
+    if (!data) {
+        return (
+            <Layout>
+                <div className="wrapper text-center py-5">
+                    <h2>Service Not Found</h2>
+                    <p>
+                        The service you`&apos;`re looking for doesn`&apos;`t
+                        exist.
+                    </p>
+                </div>
+            </Layout>
+        );
+    }
+
     return (
         <React.Fragment>
             <Layout>
                 <SEO
-                    title={`InspireByte – ${data[0]?.title}`}
+                    title={`InspireByte – ${data.title}`}
                     description={
-                        data[0]?.excerpt ||
+                        data.excerpt ||
                         "Explore the detailed service offerings of InspireByte."
                     }
-                    keywords={`InspireByte, ${data[0]?.title}, ${data[0]?.excerpt}`}
+                    keywords={`InspireByte, ${data.title}, ${data.excerpt}`}
                     image="/images/service/2.png"
                     author="InspireByte"
-                    ogTitle={`InspireByte – ${data[0]?.title}`}
-                    ogDescription={data[0]?.excerpt}
+                    ogTitle={`InspireByte – ${data.title}`}
+                    ogDescription={data.excerpt}
                 />
                 <div className="wrapper">
                     <Header />
                     <PageBanner
-                        title={data[0]?.title}
-                        excerpt={data[0]?.excerpt}
+                        title={data.title}
+                        excerpt={data.excerpt}
                         image="/images/service/inspirebyte-services.png"
                     />
-                    <ServiceDetailsContainer data={data[0]} />
+                    <ServiceDetailsContainer data={data} />
                     <Footer />
                     <ScrollToTop />
                 </div>
@@ -52,7 +66,7 @@ const ServiceDetails = ({
 ServiceDetails.propTypes = {
     match: PropTypes.shape({
         params: PropTypes.shape({
-            id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+            link: PropTypes.string,
         }),
     }),
 };
