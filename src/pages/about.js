@@ -30,7 +30,41 @@ const AboutPage = () => {
                     <Header />
                     <PageBanner
                         title="About us"
-                        excerpt="Based in Dehradun, we're a dynamic software solutions firm dedicated to innovating and tailoring solutions for businesses. Our tech artisans specialize in system development, business automations, API integrations, and software development. We collaborate closely with clients, delivering reliable, secure, and scalable solutions to drive digital excellence. Let's transform your business together — contact us today!"
+                        excerpt="Inspirebyte is a Dehradun-based software
+                                development company committed to building
+                                tailored digital solutions for modern
+                                businesses. As a trusted IT service provider in
+                                Dehradun, we specialize in &nbsp;
+                                <strong>custom software development</strong>
+                                ,&nbsp;
+                                <strong>business process automation</strong>,
+                                &nbsp;
+                                <strong>CRM implementation</strong>, and&nbsp;
+                                <strong>API integration</strong> for small and
+                                mid-sized enterprises.
+                                <br><br>
+                                With a team of skilled developers and automation
+                                experts, we collaborate closely with our clients
+                                to understand their unique needs and deliver
+                                secure, scalable, and future-ready systems.
+                                Whether you're a startup or an
+                                established business, our goal is to help you
+                                streamline operations, reduce manual work, and
+                                accelerate growth through intelligent software
+                                systems.
+                                <br><br>
+                                Serving clients across India and internationally
+                                , we bring a human touch to technology by
+                                combining deep technical expertise with
+                                transparent communication and a results-driven
+                                approach.
+                                <br><br>
+                                <strong>
+                                    Ready to transform your business?
+                                </strong>
+                                &nbsp;
+                                <a href='/contact'>Contact Inspirebyte</a> today
+                                and discover how our solutions can work for you."
                         image="./images/about/inspirebyte-about.png"
                     />
                     <IconBoxContainer classOption="section-pt" />
