@@ -26,8 +26,16 @@ const IntroContainer = () => {
             {/* Hidden SEO content */}
             <div style={{ display: 'none' }}>
                 <p>
-                    Inspirebyte specializes in innovative software solutions, offering custom APIs, automation, and
-                    system integration for businesses.
+                    Inspirebyte is a leading software development company based in Dehradun, India. We provide cutting-edge solutions including custom software development, API integration, CRM systems, and business process automation tailored to meet specific business needs.
+                </p>
+                <p>
+                    Our services are designed to enhance operational efficiency, reduce manual workloads, and deliver scalable, secure systems across various industries. From full stack development to cloud-based data solutions, we help startups and enterprises achieve digital transformation.
+                </p>
+                <p>
+                    With expertise in tools like Node.js, React, and modern DevOps practices, Inspirebyte builds intelligent, reliable platforms that empower businesses to innovate and grow in the competitive digital landscape.
+                </p>
+                <p>
+                    We work closely with clients throughout India and internationally, offering technical consulting, custom API development, and ongoing support to ensure long-term value and technology alignment.
                 </p>
             </div>
         </div>
