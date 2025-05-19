@@ -27,7 +27,15 @@ const ServicePage = () => {
                     <Header />
                     <PageBanner
                         title="Our Services"
-                        excerpt="At Inspirebyte, we offer a comprehensive range of services aimed at unlocking the full potential of your business. From innovative Software Development and Business Process Automation to data solutions and CRM integration, our expert team is committed to maximizing efficiency, optimizing performance, and driving growth. With a focus on innovation, reliability, and client satisfaction, we deliver tailored solutions that ignite innovation and empower your business to achieve excellence in the digital landscape. Partner with Inspirebyte to transform your business today and embark on a journey of digital success."
+                        excerpt="At Inspirebyte, we offer a comprehensive range of IT and software development services designed to unlock the full potential of your business. From scalable web applications to intelligent workflow automation, we specialize in delivering custom technology solutions that drive performance and digital growth.
+                        <br><br>
+                        Our core service areas include <strong>Full Stack Software Development</strong>, <strong>Business Process Automation</strong>, <strong>API Integration and Development</strong>, <strong>CRM Solutions</strong>, <strong>IT Consulting</strong>, and <strong>Data & Cloud Solutions</strong>. Whether you need to modernize your systems or build from scratch, our team of experts is here to architect reliable, secure, and scalable platforms tailored to your unique goals.
+                        <br><br>
+                        We understand that each business is different, which is why we focus on personalization — not one-size-fits-all. Our agile process ensures that we collaborate closely with you at every step to deliver practical, cost-effective, and high-performing solutions.
+                        <br><br>
+                        From <a href='/service-details/full-stack-software-development'>custom software</a> and <a href='/service-details/business-process-automation'>automation tools</a> to <a href='/service-details/crm-solutions'>CRM integration</a> and <a href='/service-details/api-integration-and-development'>seamless API connectivity</a>, we build the tech stack that fuels your business.
+                        <br><br>
+                        <strong>Partner with Inspirebyte to transform your business today</strong> and embark on a journey of innovation, efficiency, and digital excellence."
                         image="./images/service/inspirebyte-services.png"
                     />
                     <ServiceListContainer />
