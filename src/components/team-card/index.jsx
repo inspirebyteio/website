@@ -7,7 +7,9 @@ const TeamCard = ({ data }) => {
                 <img src={process.env.PUBLIC_URL + data.thumb} alt={`${data.name}, ${data.designation}` } />
             </div>
             <div className="content">
+                <a href={`${data.linkedin}`} target="_blank">
                 <h3 className="title">{data.name}</h3>
+                </a>
                 <span>{data.designation}</span>
             </div>
         </div>
