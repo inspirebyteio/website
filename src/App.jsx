@@ -8,6 +8,7 @@ import ServicePage from "./pages/service";
 import ServiceDetails from "./templates/service-details";
 import TeamPage from "./pages/team";
 import ProjectsPage from "./pages/projects";
+import PrivacyPage from "./pages/privacy";
 import FaqPage from "./pages/faq";
 import ContactPage from "./pages/contact";
 
@@ -74,6 +75,10 @@ const RoutesWithTracking = () => {
                 <Route
                     path={`${process.env.PUBLIC_URL + "/contact"}`}
                     component={ContactPage}
+                />
+                <Route
+                    path={`${process.env.PUBLIC_URL + "/privacy"}`}
+                    component={PrivacyPage}
                 />
             </Switch>
         </NavScrollTop>
