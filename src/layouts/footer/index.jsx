@@ -108,6 +108,17 @@ const Footer = () => {
                                             className="footer-link"
                                             to={
                                                 process.env.PUBLIC_URL +
+                                                "/privacy"
+                                            }
+                                        >
+                                            Privacy Policy
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link
+                                            className="footer-link"
+                                            to={
+                                                process.env.PUBLIC_URL +
                                                 "/faq"
                                             }
                                         >
