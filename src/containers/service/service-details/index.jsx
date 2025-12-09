@@ -1,13 +1,9 @@
 import React from "react";
-import { useParams } from "react-router-dom";
 import ServiceDetails from "../../../components/service-details";
 import ServiceCate from "../../../components/sidebar/service-cate";
 import ServiceData from "../../../data/service.json";
 
-const ServiceDetailsContainer = () => {
-    const { link } = useParams();
-    const data = ServiceData.find(service => service.link === link);
-
+const ServiceDetailsContainer = ({ data }) => {
     if (!data) {
         return (
             <div className="single-service section-py text-center">
