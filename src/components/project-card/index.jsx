@@ -5,10 +5,10 @@ const ProjectCard = ({ data }) => {
     return (
         <div className="project-card">
             <div className="thumb">
-                <img src={process.env.PUBLIC_URL + data.image} alt={`${data.description}, ${data.type}`} />
+                <a href={data.website} target="_blank"><img src={process.env.PUBLIC_URL + data.image} alt={`${data.description}, ${data.type}`} /></a>
             </div>
             <div className="content">
-                <h3 className="title">{data.name}</h3>
+                <a href={data.website} target="_blank"><h3 className="title">{data.name}</h3></a>
                 <h6>{data.description}</h6>
                 <hr/>
                 <ul>                   
