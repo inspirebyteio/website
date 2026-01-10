@@ -1,16 +1,17 @@
 import { BrowserRouter as Router, Route, Switch, useLocation } from "react-router-dom";
 import { Helmet } from "react-helmet";
-import { useEffect } from "react";
+import { useEffect, lazy, Suspense } from "react";
 import NavScrollTop from "./components/nav-scroll-top";
-import HomePage from "./pages/index";
-import AboutPage from "./pages/about";
-import ServicePage from "./pages/service";
-import ServiceDetails from "./templates/service-details";
-import TeamPage from "./pages/team";
-import ProjectsPage from "./pages/projects";
-import PrivacyPage from "./pages/privacy";
-import FaqPage from "./pages/faq";
-import ContactPage from "./pages/contact";
+
+const HomePage = lazy(() => import("./pages/index"));
+const AboutPage = lazy(() => import("./pages/about"));
+const ServicePage = lazy(() => import("./pages/service"));
+const ServiceDetails = lazy(() => import("./templates/service-details"));
+const TeamPage = lazy(() => import("./pages/team"));
+const ProjectsPage = lazy(() => import("./pages/projects"));
+const PrivacyPage = lazy(() => import("./pages/privacy"));
+const FaqPage = lazy(() => import("./pages/faq"));
+const ContactPage = lazy(() => import("./pages/contact"));
 
 import "swiper/components/navigation/navigation.scss";
 import "swiper/swiper.scss";
@@ -42,45 +43,47 @@ const RoutesWithTracking = () => {
 
     return (
         <NavScrollTop>
-            <Switch>
-                <Route
-                    path={`${process.env.PUBLIC_URL + "/"}`}
-                    exact
-                    component={HomePage}
-                />
-                <Route
-                    path={`${process.env.PUBLIC_URL + "/about"}`}
-                    component={AboutPage}
-                />
-                <Route
-                    path={`${process.env.PUBLIC_URL + "/service"}`}
-                    component={ServicePage}
-                />
-                <Route
-    path={`${process.env.PUBLIC_URL + "/service-details/:param"}`}
-    component={ServiceDetails}
-/>
-                <Route
-                    path={`${process.env.PUBLIC_URL + "/team"}`}
-                    component={TeamPage}
-                />
-                <Route
-                    path={`${process.env.PUBLIC_URL + "/projects"}`}
-                    component={ProjectsPage}
-                />
-                <Route
-                    path={`${process.env.PUBLIC_URL + "/faq"}`}
-                    component={FaqPage}
-                />
-                <Route
-                    path={`${process.env.PUBLIC_URL + "/contact"}`}
-                    component={ContactPage}
-                />
-                <Route
-                    path={`${process.env.PUBLIC_URL + "/privacy"}`}
-                    component={PrivacyPage}
-                />
-            </Switch>
+            <Suspense fallback={<div className="preloader"><div className="loader"></div></div>}>
+                <Switch>
+                    <Route
+                        path={`${process.env.PUBLIC_URL + "/"}`}
+                        exact
+                        component={HomePage}
+                    />
+                    <Route
+                        path={`${process.env.PUBLIC_URL + "/about"}`}
+                        component={AboutPage}
+                    />
+                    <Route
+                        path={`${process.env.PUBLIC_URL + "/service"}`}
+                        component={ServicePage}
+                    />
+                    <Route
+                        path={`${process.env.PUBLIC_URL + "/service-details/:param"}`}
+                        component={ServiceDetails}
+                    />
+                    <Route
+                        path={`${process.env.PUBLIC_URL + "/team"}`}
+                        component={TeamPage}
+                    />
+                    <Route
+                        path={`${process.env.PUBLIC_URL + "/projects"}`}
+                        component={ProjectsPage}
+                    />
+                    <Route
+                        path={`${process.env.PUBLIC_URL + "/faq"}`}
+                        component={FaqPage}
+                    />
+                    <Route
+                        path={`${process.env.PUBLIC_URL + "/contact"}`}
+                        component={ContactPage}
+                    />
+                    <Route
+                        path={`${process.env.PUBLIC_URL + "/privacy"}`}
+                        component={PrivacyPage}
+                    />
+                </Switch>
+            </Suspense>
         </NavScrollTop>
     );
 };

@@ -21,7 +21,7 @@ const AboutPage = () => {
                     title="InspireByte – About Us | Custom Software & Automation Experts"
                     description="Learn about InspireByte, a Dehradun-based software company specializing in business automation, system development, CRM integration, and scalable digital solutions. We're committed to driving innovation and transforming businesses with technology."
                     keywords="About InspireByte, Dehradun software company, business automation experts, system development, CRM integration, IT solutions firm, InspireByte team, API integration services"
-                    image="/images/about/inspirebyte-about.png"
+                    image="/images/about/inspirebyte-about.webp"
                     author="InspireByte"
                     ogTitle="About InspireByte | Software Solutions & Automation Experts"
                     ogDescription="Discover the mission, team, and services behind InspireByte – your trusted partner in building reliable, scalable, and innovative digital solutions."
@@ -65,7 +65,7 @@ const AboutPage = () => {
                                 &nbsp;
                                 <a href='/contact'>Contact Inspirebyte</a> today
                                 and discover how our solutions can work for you."
-                        image="./images/about/inspirebyte-about.png"
+                        image="./images/about/inspirebyte-about.webp"
                     />
                     <IconBoxContainer classOption="section-pt" />
                     <BrandContainer />

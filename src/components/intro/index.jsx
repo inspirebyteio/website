@@ -50,6 +50,8 @@ const Intro = ({ data }) => {
                                     className="animated"
                                     src={`${process.env.PUBLIC_URL}/${data.image}`}
                                     alt="inspirebyte hero section image"
+                                    fetchpriority="high"
+                                    loading="eager"
                                 />
                             </div>
                         </div>
