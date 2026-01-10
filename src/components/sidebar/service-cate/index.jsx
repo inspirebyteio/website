@@ -37,10 +37,10 @@ const ServiceCate = ({ data }) => {
                                 activeClassName="active"
                                 to={
                                     process.env.PUBLIC_URL +
-                                    `/service-details/${slugify(single.id)}`
+                                    `/service-details/${single.link}`
                                 }
                             >
-                                <img src={single.smallIcon} alt={single.title} />
+                                <img src={single.smallIcon} alt={`Inspirebyte ${single.title} Icon`} />
                                 {single.title}
                             </NavLink>
                         </li>

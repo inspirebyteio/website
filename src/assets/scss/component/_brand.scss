@@ -2,10 +2,68 @@
 /*  Brand Css Start
 ----------------------------------------*/
 
+.brand-link {
+  display: block;
+  text-decoration: none;
+
+  &:hover {
+    .single-brand {
+      border-color: var(--bs-primary);
+      background-color: #fff;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+      transform: translateY(-5px);
+
+      .brand-logo {
+        img {
+          filter: grayscale(0);
+          opacity: 1;
+          transform: scale(1.05);
+        }
+      }
+
+      .brand-name {
+        color: var(--bs-primary);
+      }
+    }
+  }
+}
+
 .single-brand {
   text-align: center;
-  .thumb {
-    display: block;
+  background: #f9f9f9;
+  border: 1px solid #eee;
+  padding: 40px 20px;
+  border-radius: 12px;
+  transition: all 0.4s ease-in-out;
+  height: 100%;
+  min-height: 240px; // Ensure all cards have the same baseline height
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .brand-logo {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100%;
+
+    img {
+      max-height: 100%;
+      max-width: 80%;
+      object-fit: contain;
+      transition: all 0.4s ease-in-out;
+    }
+  }
+
+  .brand-name {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: #666;
+    transition: all 0.4s ease-in-out;
   }
 }
 
