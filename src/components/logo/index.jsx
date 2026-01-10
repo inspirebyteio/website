@@ -6,10 +6,10 @@ const Logo = ({ image, classOption }) => {
   const defaultWidth = '65%'; // Default width for larger screens
 
   return (
-    <Link className={`${classOption}`} to={process.env.PUBLIC_URL + "/"}>
+    <Link className={`${classOption}`} to={`${process.env.PUBLIC_URL}/`}>
       <img
         className="logo-main"
-        src={process.env.PUBLIC_URL + image}
+        src={`${process.env.PUBLIC_URL}/${image}`}
         style={{
           width: defaultWidth, // Default width for larger screens
         }}

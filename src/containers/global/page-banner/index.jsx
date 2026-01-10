@@ -8,7 +8,7 @@ const PageBanner = ({ title, excerpt, image }) => {
         <div className="banner-section position-relative">
             <img
                 className="banner-shape"
-                src={process.env.PUBLIC_URL + "/images/banner/inspirebyte-banner-color.png"}
+                src={`${process.env.PUBLIC_URL}/images/banner/inspirebyte-banner-color.png`}
                 alt="inspirebyte-banner-color"
             />
             <div className="container">

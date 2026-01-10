@@ -36,7 +36,7 @@ const ServicePage = () => {
                         From <a href='/service-details/full-stack-software-development'>custom software</a> and <a href='/service-details/business-process-automation'>automation tools</a> to <a href='/service-details/crm-solutions'>CRM integration</a> and <a href='/service-details/api-integration-and-development'>seamless API connectivity</a>, we build the tech stack that fuels your business.
                         <br><br>
                         <strong>Partner with Inspirebyte to transform your business today</strong> and embark on a journey of innovation, efficiency, and digital excellence."
-                        image="./images/service/inspirebyte-services.png"
+                        image="images/service/inspirebyte-services.png"
                     />
                     <ServiceListContainer />
                     <TestimonialReverse />

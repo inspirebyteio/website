@@ -35,7 +35,7 @@ const ProjectsPage = () => {
                         systems to creating seamless integrations, our work 
                         highlights the depth and versatility of our solutions.
                         "
-                        image="./images/service/inspirebyte-projects.png"
+                        image="images/service/inspirebyte-projects.png"
                     />
                     <Projects />
                     <TestimonialContainer />
