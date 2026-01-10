@@ -3,7 +3,7 @@
         "slider": [
             {
                 "id": 1,
-                "image": "./images/slider/inspirebyte-hero-banner.png",
+                "image": "./images/slider/inspirebyte-hero-banner.webp",
                 "title": "Software Solutions <br />for your Business</span><br />Development"
             }
         ]
@@ -161,7 +161,7 @@
                 "Our team leverage cutting-edge technologies to build scalable web applications and mobile apps. Whether you are looking for enterprise-grade CRM solutions or intelligent automation to reduce manual overhead, our Dehradun-based experts provide reliable, secure, and future-ready systems.",
                 "We take a holistic approach to technology consulting. By understanding your unique business workflows, we architect custom platforms that not only solve current challenges but also scale with your future growth."
             ],
-            "image": "./images/about/inspirebyte-about.png"
+            "image": "./images/about/inspirebyte-about.webp"
         }
     }
 ]
