@@ -23,6 +23,7 @@
     "swiper": "^6.6.2"
   },
   "scripts": {
+    "prebuild": "node generate-sitemap.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
