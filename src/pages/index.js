@@ -8,6 +8,7 @@ import TeamContainer from "../containers/global/team";
 import TestimonialContainer from "../containers/global/testimonial";
 import HomeAboutContainer from "../containers/home/about";
 import IntroContainer from "../containers/home/intro";
+import ExpertiseContainer from "../containers/home/expertise";
 import ServiceListContainer from "../containers/service/service-list";
 import ContactContainer from "../containers/contact";
 import Footer from "../layouts/footer";
@@ -29,6 +30,7 @@ const HomePage = () => {
                 <div className="wrapper">
                     <Header />
                     <IntroContainer />
+                    <ExpertiseContainer />
                     <BrandContainer />
                     <IconBoxContainer classOption="section-pb" />
                     <FunFactContainer classOption="mt-10 mt-lg-0" />

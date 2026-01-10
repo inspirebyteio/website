@@ -23,21 +23,6 @@ const IntroContainer = () => {
             {/* Pass the relevant data to the Intro component */}
             <Intro data={introData} />
 
-            {/* Hidden SEO content */}
-            <div style={{ display: 'none' }}>
-                <h1>
-                    Inspirebyte is a leading software development company based in Dehradun, India. We provide cutting-edge solutions including custom software development, API integration, CRM systems, and business process automation tailored to meet specific business needs.
-                </h1>
-                <h1>
-                    Our services are designed to enhance operational efficiency, reduce manual workloads, and deliver scalable, secure systems across various industries. From full stack development to cloud-based data solutions, we help startups and enterprises achieve digital transformation.
-                </h1>
-                <h2>
-                    With expertise in tools like Node.js, React, and modern DevOps practices, Inspirebyte builds intelligent, reliable platforms that empower businesses to innovate and grow in the competitive digital landscape.
-                </h2>
-                <h2>
-                    We work closely with clients throughout India and internationally, offering technical consulting, custom API development, and ongoing support to ensure long-term value and technology alignment.
-                </h2>
-            </div>
         </div>
     );
 };

@@ -1,6 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import HomeData from "../../../data/home.json";
+import SectionTitle from "../../../components/section-title";
 import Brand from "../../../components/brand/index";
 
 const BrandContainer = () => {
@@ -11,7 +12,7 @@ const BrandContainer = () => {
             delay: 2000,
         },
         slidesPerView: 4,
-        spaceBetween: 0,
+        spaceBetween: 30,
         pagination: false,
         navigation: false,
         // Responsive breakpoints
@@ -38,6 +39,14 @@ const BrandContainer = () => {
     return (
         <div className="brand-section section-py">
             <div className="container">
+                <div className="row">
+                    <div className="col-xl-6 col-lg-8 mx-auto">
+                        <SectionTitle
+                            classOption="title-section mb-10 pb-10 text-center"
+                            title="Worked with <span class='text-primary'>Teams</span> like"
+                        />
+                    </div>
+                </div>
                 <div className="row">
                     <div className="col-12">
                         <Swiper className="brand-carousel" {...swiperOption}>

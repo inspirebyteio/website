@@ -13,7 +13,7 @@ const TeamPage = () => {
         <React.Fragment>
             <Layout>
                 <SEO
-                    title="InspireByte – Our Team"
+                    title="InspireByte – Expert Software Developers & IT Consultants Team"
                     description="Meet the InspireByte team — a group of skilled professionals dedicated to delivering innovative software solutions, business automation, and IT services that drive business growth and success."
                     keywords="InspireByte team, software experts, business automation specialists, IT service professionals, custom software development team, InspireByte professionals"
                     image="/images/team/inspirebyte-team.png"
