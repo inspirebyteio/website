@@ -65,7 +65,7 @@ const AboutPage = () => {
                                 &nbsp;
                                 <a href='/contact'>Contact Inspirebyte</a> today
                                 and discover how our solutions can work for you."
-                        image="images/about/inspirebyte-about.webp"
+                        image="images/about/inspirebyte-about.png"
                     />
                     <IconBoxContainer classOption="section-pt" />
                     <BrandContainer />
