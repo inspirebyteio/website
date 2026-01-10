@@ -19,15 +19,14 @@ const Header = () => {
         };
     }, []);
 
-    const handleScroll = ({}) => {
+    const handleScroll = ({ }) => {
         setScroll(window.scrollY);
     };
     return (
         <Fragment>
             <header
-                className={`header-section sticky-header ${
-                    scroll > headerTop ? "is-sticky" : ""
-                }`}
+                className={`header-section sticky-header ${scroll > headerTop ? "is-sticky" : ""
+                    }`}
             >
                 <div className="container">
                     <div className="row align-items-center">
@@ -35,7 +34,7 @@ const Header = () => {
                             <div className="header-logo">
                                 <Logo
                                     classOption="d-block"
-                                    image={`${process.env.PUBLIC_URL}/images/logo/inspirebyte-logo.png`}
+                                    image={`images/logo/inspirebyte-logo.png`}
                                 />
                             </div>
                         </div>

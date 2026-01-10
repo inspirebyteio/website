@@ -40,7 +40,7 @@ const ServiceCate = ({ data }) => {
                                     `/service-details/${single.link}`
                                 }
                             >
-                                <img src={single.smallIcon} alt={`Inspirebyte ${single.title} Icon`} />
+                                <img src={`${process.env.PUBLIC_URL}/${single.smallIcon}`} alt={`Inspirebyte ${single.title} Icon`} />
                                 {single.title}
                             </NavLink>
                         </li>

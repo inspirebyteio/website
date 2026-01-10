@@ -1,9 +1,9 @@
 [
     {
         "id": 1,
-        "icon": "./images/service/icon/1.png",
-        "smallIcon": "/images/service/icon/small/1.png",
-        "image": "./images/service/software-development-expertise-dehradun.webp",
+        "icon": "images/service/icon/1.png",
+        "smallIcon": "images/service/icon/small/1.png",
+        "image": "images/service/software-development-expertise-dehradun.webp",
         "title": "Full Stack Software Development",
         "link": "full-stack-software-development",
         "categories": [
@@ -24,9 +24,9 @@
     },
     {
         "id": 2,
-        "icon": "./images/service/icon/2.png",
-        "smallIcon": "/images/service/icon/small/2.png",
-        "image": "./images/service/software-development-expertise-dehradun.webp",
+        "icon": "images/service/icon/2.png",
+        "smallIcon": "images/service/icon/small/2.png",
+        "image": "images/service/software-development-expertise-dehradun.webp",
         "title": "IT Consulting",
         "link": "it-consulting",
         "categories": [
@@ -46,9 +46,9 @@
     },
     {
         "id": 3,
-        "icon": "./images/service/icon/3.png",
-        "smallIcon": "/images/service/icon/small/3.png",
-        "image": "./images/service/software-development-expertise-dehradun.webp",
+        "icon": "images/service/icon/3.png",
+        "smallIcon": "images/service/icon/small/3.png",
+        "image": "images/service/software-development-expertise-dehradun.webp",
         "title": "Data and Cloud Solutions",
         "link": "data-and-cloud-solutions",
         "categories": [
@@ -63,15 +63,15 @@
         "body": [
             "<p class='mb-8'>At Inspirebyte, we specialize in data and cloud solutions that empower businesses to harness the full potential of their data while leveraging the scalability and flexibility of cloud technologies. Our expert team ensures that your data is transformed into actionable insights, enabling you to make informed decisions and drive growth. Whether it's data analytics, cloud migration, or data security, we have the expertise to navigate the complexities of the digital world and provide you with a secure and efficient data-driven environment. </p>",
             "<div class='single-service-list'><p><i class='fa fa-angle-double-right'></i> Data Analytics and Insights: Unlock the value of your data with our advanced analytics solutions, gaining valuable insights to drive strategic decision-making.</p> <p><i class='fa fa-angle-double-right'></i>Cloud Migration and Management: Seamlessly transition to the cloud with our expert guidance, optimizing your operations for enhanced scalability and cost-effectiveness.</p><p><i class='fa fa-angle-double-right'></i>Data Integration and Interoperability: Ensure smooth data flow and collaboration across different systems and applications with our data integration services.</p></div>",
-            "<div class='row sub-section-mb70'><div class='col-xl-6 col-md-5 order-last order-lg-first text-center'><img class='mr-n2 mt-7 mt-md-0' src='/images/service/crm-api-integration-experts.png' alt='Secure Data and Cloud Solutions by Inspirebyte Dehradun' /></div><div class='col-xl-5 col-md-6 offset-xl-1'><div class='sub-section-title'><p>Our dedicated team provides continuous support and monitoring to ensure your data and cloud environment remains secure and efficient, And We tailor our data and cloud solutions to match your specific business requirements, ensuring the right fit for your organization. </p></div></div></div>"
+            "<div class='row sub-section-mb70'><div class='col-xl-6 col-md-5 order-last order-lg-first text-center'><img class='mr-n2 mt-7 mt-md-0' src='/images/service/crm-api-integration-experts.webp' alt='Secure Data and Cloud Solutions by Inspirebyte Dehradun' /></div><div class='col-xl-5 col-md-6 offset-xl-1'><div class='sub-section-title'><p>Our dedicated team provides continuous support and monitoring to ensure your data and cloud environment remains secure and efficient, And We tailor our data and cloud solutions to match your specific business requirements, ensuring the right fit for your organization. </p></div></div></div>"
         ],
         "bodyBottom": "With our data and cloud solutions, your business can drive innovation, optimize performance, and achieve a competitive edge in the digital landscape. Let us empower your organization with data-driven insights and the transformative capabilities of cloud technologies. Contact us today to embark on a data-driven journey to success."
     },
     {
         "id": 4,
-        "icon": "./images/service/icon/4.png",
-        "smallIcon": "/images/service/icon/small/4.png",
-        "image": "./images/service/software-development-expertise-dehradun.webp",
+        "icon": "images/service/icon/4.png",
+        "smallIcon": "images/service/icon/small/4.png",
+        "image": "images/service/software-development-expertise-dehradun.webp",
         "title": "Business Process Automation",
         "link": "business-process-automation",
         "categories": [
@@ -92,9 +92,9 @@
     },
     {
         "id": 5,
-        "icon": "./images/service/icon/5.png",
-        "smallIcon": "/images/service/icon/small/7.png",
-        "image": "./images/service/software-development-expertise-dehradun.webp",
+        "icon": "images/service/icon/5.png",
+        "smallIcon": "images/service/icon/small/7.png",
+        "image": "images/service/software-development-expertise-dehradun.webp",
         "title": "CRM Solutions",
         "link": "crm-solutions",
         "categories": [
@@ -109,15 +109,15 @@
         "body": [
             "<p class='mb-8'>At Inspirebyte, our CRM solutions are tailored to help businesses build strong and lasting relationships with their customers. We understand that customer satisfaction is essential for success, and our expert team works diligently to implement CRM systems that centralize customer data, optimize sales processes, and enhance customer engagement. With our CRM solutions, you can gain valuable insights, improve customer interactions, and ultimately drive revenue growth.            </p>",
             "<div class='single-service-list'><p><i class='fa fa-angle-double-right'></i> Customized CRM Solutions: We tailor our CRM solutions to match your specific business processes and industry requirements.</p> <p><i class='fa fa-angle-double-right'></i>Data Security and Privacy: We prioritize data security and compliance, ensuring that your customer information remains safe and protected.</p><p><i class='fa fa-angle-double-right'></i>Training and Support: Our team provides comprehensive training and ongoing support to ensure a smooth transition and successful CRM implementation.</p><p><i class='fa fa-angle-double-right'></i>Enhanced Customer Engagement: Utilize CRM data to personalize interactions and deliver exceptional customer experiences.</p></div>",
-            "<div class='row sub-section-mb70'><div class='col-xl-6 col-md-5 order-last order-lg-first text-center'><img class='mr-n2 mt-7 mt-md-0' src='/images/service/crm-api-integration-experts.png' alt='Custom CRM Solutions and Development by Inspirebyte' /></div><div class='col-xl-5 col-md-6 offset-xl-1'><div class='sub-section-title'><p>Streamline your sales workflows, automate repetitive tasks, and empower your sales team to close deals more efficiently. Access real-time insights into customer behavior, sales performance, and marketing campaigns to inform strategic decisions. </p></div></div></div>"
+            "<div class='row sub-section-mb70'><div class='col-xl-6 col-md-5 order-last order-lg-first text-center'><img class='mr-n2 mt-7 mt-md-0' src='/images/service/crm-api-integration-experts.webp' alt='Custom CRM Solutions and Development by Inspirebyte' /></div><div class='col-xl-5 col-md-6 offset-xl-1'><div class='sub-section-title'><p>Streamline your sales workflows, automate repetitive tasks, and empower your sales team to close deals more efficiently. Access real-time insights into customer behavior, sales performance, and marketing campaigns to inform strategic decisions. </p></div></div></div>"
         ],
         "bodyBottom": "With our CRM solutions, you can foster loyalty, improve customer retention, and drive long-term business success. Let us help you create meaningful connections and deliver exceptional experiences to your customers. Contact us today to explore how our CRM expertise can elevate your business to new heights.        "
     },
     {
         "id": 6,
-        "icon": "./images/service/icon/6.png",
-        "smallIcon": "/images/service/icon/small/8.png",
-        "image": "./images/service/software-development-expertise-dehradun.webp",
+        "icon": "images/service/icon/6.png",
+        "smallIcon": "images/service/icon/small/8.png",
+        "image": "images/service/software-development-expertise-dehradun.webp",
         "title": "API Integration and Development",
         "link": "api-integration-and-development",
         "categories": [
