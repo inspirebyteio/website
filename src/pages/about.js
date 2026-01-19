@@ -35,12 +35,12 @@ const AboutPage = () => {
                                 tailored digital solutions for modern
                                 businesses. As a trusted IT service provider in
                                 Dehradun, we specialize in &nbsp;
-                                <strong>custom software development</strong>
+                                custom software development
                                 ,&nbsp;
-                                <strong>business process automation</strong>,
+                                business process automation,
                                 &nbsp;
-                                <strong>CRM implementation</strong>, and&nbsp;
-                                <strong>API integration</strong> for small and
+                                CRM implementation, and&nbsp;
+                                API integration for small and
                                 mid-sized enterprises.
                                 <br><br>
                                 With a team of skilled developers and automation
@@ -59,9 +59,9 @@ const AboutPage = () => {
                                 transparent communication and a results-driven
                                 approach.
                                 <br><br>
-                                <strong>
+                                
                                     Ready to transform your business?
-                                </strong>
+                                
                                 &nbsp;
                                 <a href='/contact'>Contact Inspirebyte</a> today
                                 and discover how our solutions can work for you."
