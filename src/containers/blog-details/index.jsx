@@ -1,35 +1,12 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import ReactMarkdown from "react-markdown";
 import BlogData from "../../data/blogs.json";
 import { Link } from "react-router-dom";
 
+import BlogContent from "../../data/blog-content.json";
+
 const BlogDetailsContainer = ({ data }) => {
-    const [content, setContent] = useState("");
-    const [loading, setLoading] = useState(true);
-
-    useEffect(() => {
-        const fetchContent = async () => {
-            try {
-                const response = await fetch(`${process.env.PUBLIC_URL}/blog-posts/${data.slug}.md`);
-                if (!response.ok) throw new Error("File not found");
-                const text = await response.text();
-
-                // Simple frontmatter parser for browser
-                const frontMatterRegex = /^---\s*\n([\s\S]*?)\n---\s*\n/;
-                const match = text.match(frontMatterRegex);
-                const markdownBody = match ? text.replace(frontMatterRegex, "") : text;
-
-                setContent(markdownBody);
-            } catch (error) {
-                console.error("Error fetching blog content:", error);
-                setContent("Failed to load blog content. Please try again later.");
-            } finally {
-                setLoading(false);
-            }
-        };
-
-        fetchContent();
-    }, [data.slug]);
+    const content = BlogContent[data.slug] || "Content not found.";
 
     const recentPosts = BlogData.filter(post => post.slug !== data.slug).slice(0, 3);
 
@@ -39,17 +16,9 @@ const BlogDetailsContainer = ({ data }) => {
                 <div className="row">
                     <div className="col-lg-8">
                         <div className="blog-details-content card shadow-sm border-0 p-4 p-md-5 rounded-3">
-                            {loading ? (
-                                <div className="text-center py-5">
-                                    <div className="spinner-border text-primary" role="status">
-                                        <span className="visually-hidden">Loading...</span>
-                                    </div>
-                                </div>
-                            ) : (
-                                <article className="prose-custom">
-                                    <ReactMarkdown>{content}</ReactMarkdown>
-                                </article>
-                            )}
+                            <article className="prose-custom">
+                                <ReactMarkdown>{content}</ReactMarkdown>
+                            </article>
                         </div>
                     </div>
                     <div className="col-lg-4">
