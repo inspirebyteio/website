@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch, useLocation } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, useLocation, Redirect } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import { useEffect, lazy, Suspense } from "react";
 import NavScrollTop from "./components/nav-scroll-top";
@@ -56,14 +56,30 @@ const RoutesWithTracking = () => {
                         path={`${process.env.PUBLIC_URL + "/about"}`}
                         component={AboutPage}
                     />
+                    {/* New Service Routes */}
                     <Route
-                        path={`${process.env.PUBLIC_URL + "/service"}`}
+                        path={`${process.env.PUBLIC_URL + "/services"}`}
+                        exact
                         component={ServicePage}
                     />
                     <Route
-                        path={`${process.env.PUBLIC_URL + "/service-details/:param"}`}
+                        path={`${process.env.PUBLIC_URL + "/services/:param"}`}
                         component={ServiceDetails}
                     />
+
+                    {/* SEO Redirects */}
+                    <Route
+                        path={`${process.env.PUBLIC_URL + "/service"}`}
+                        exact
+                        render={() => <Redirect to={`${process.env.PUBLIC_URL}/services`} />}
+                    />
+                    <Route
+                        path={`${process.env.PUBLIC_URL + "/service-details/:param"}`}
+                        render={({ match }) => (
+                            <Redirect to={`${process.env.PUBLIC_URL}/services/${match.params.param}`} />
+                        )}
+                    />
+
                     <Route
                         path={`${process.env.PUBLIC_URL + "/team"}`}
                         component={TeamPage}

@@ -11,7 +11,7 @@ const SITEMAP_PATH = path.join(PUBLIC_DIR, 'sitemap.xml');
 const staticRoutes = [
     { path: '/', priority: '1.0' },
     { path: '/about', priority: '0.8' },
-    { path: '/service', priority: '0.9' },
+    { path: '/services', priority: '0.9' },
     { path: '/team', priority: '0.6' },
     { path: '/projects', priority: '0.8' },
     { path: '/faq', priority: '0.5' },
@@ -40,7 +40,7 @@ function generateSitemap() {
             const services = JSON.parse(fs.readFileSync(serviceDataPath, 'utf8'));
             services.forEach(service => {
                 xml += `  <url>\n`;
-                xml += `    <loc>${BASE_URL}/service-details/${service.link}</loc>\n`;
+                xml += `    <loc>${BASE_URL}/services/${service.link}</loc>\n`;
                 xml += `    <priority>0.7</priority>\n`;
                 xml += `  </url>\n`;
             });

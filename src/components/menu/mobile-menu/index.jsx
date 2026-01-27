@@ -56,8 +56,8 @@ const MobileMenu = ({ show, onClose }) => {
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink to={process.env.PUBLIC_URL + "/service"}>
-                                    Service
+                                <NavLink to={process.env.PUBLIC_URL + "/services"}>
+                                    Services
                                 </NavLink>
                             </li>
                             <li>
@@ -93,17 +93,17 @@ const MobileMenu = ({ show, onClose }) => {
                                         <NavLink
                                             to={
                                                 process.env.PUBLIC_URL +
-                                                "/service"
+                                                "/services"
                                             }
                                         >
-                                            service
+                                            services
                                         </NavLink>
                                     </li>
                                     <li>
                                         <NavLink
                                             to={
                                                 process.env.PUBLIC_URL +
-                                                "/service-details/1"
+                                                "/services/full-stack-software-development"
                                             }
                                         >
                                             single service

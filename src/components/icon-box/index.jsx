@@ -13,7 +13,7 @@ const IconBox = ({ data }) => {
                     alt="inspirebyte feature logo"
                 />
                 <h4 className="title my-6">
-                    <Link to={process.env.PUBLIC_URL + "/service-details/1"}>
+                    <Link to={process.env.PUBLIC_URL + "/services"}>
                         {data.title}
                     </Link>
                 </h4>

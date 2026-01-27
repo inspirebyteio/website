@@ -43,7 +43,7 @@ const HomeAboutContainer = () => {
                             <Button
                                 classOption="btn btn-lg btn-dark btn-hover-dark"
                                 text="Learn more"
-                                path="/service"
+                                path="/services"
                             />
                         </div>
                     </div>
