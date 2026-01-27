@@ -5,7 +5,7 @@
         "smallIcon": "images/service/icon/small/1.png",
         "image": "images/service/software-development-expertise-dehradun.png",
         "title": "Full Stack Software Development",
-        "link": "full-stack-software-development",
+        "link": "full-stack-development",
         "categories": [
             "Full Stack Software Development",
             "IT Consulting",
@@ -50,7 +50,7 @@
         "smallIcon": "images/service/icon/small/3.png",
         "image": "images/service/software-development-expertise-dehradun.png",
         "title": "Data and Cloud Solutions",
-        "link": "data-and-cloud-solutions",
+        "link": "cloud-solutions",
         "categories": [
             "Full Stack Software Development",
             "IT Consulting",
@@ -119,7 +119,7 @@
         "smallIcon": "images/service/icon/small/8.png",
         "image": "images/service/software-development-expertise-dehradun.png",
         "title": "API Integration and Development",
-        "link": "api-integration-and-development",
+        "link": "api-integration",
         "categories": [
             "Full Stack Software Development",
             "IT Consulting",

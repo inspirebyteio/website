@@ -37,7 +37,7 @@ const ServiceCate = ({ data }) => {
                                 activeClassName="active"
                                 to={
                                     process.env.PUBLIC_URL +
-                                    `/service-details/${single.link}`
+                                    `/services/${single.link}`
                                 }
                             >
                                 <img src={`${process.env.PUBLIC_URL}/${single.smallIcon}`} alt={`Inspirebyte ${single.title} Icon`} />

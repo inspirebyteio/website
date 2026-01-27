@@ -15,7 +15,7 @@ const ServiceBox = ({ data }) => {
                     <Link
                         to={
                             process.env.PUBLIC_URL +
-                            `/service-details/${data.link}`
+                            `/services/${data.link}`
                         }
                     >
                         {data.title}

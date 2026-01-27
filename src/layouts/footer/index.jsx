@@ -82,7 +82,7 @@ const Footer = () => {
                                             className="footer-link"
                                             to={
                                                 process.env.PUBLIC_URL +
-                                                "/service"
+                                                "/services"
                                             }
                                         >
                                             Services
@@ -144,7 +144,7 @@ const Footer = () => {
                                             className="footer-link"
                                             to={
                                                 process.env.PUBLIC_URL +
-                                                `/service-details/full-stack-software-development`
+                                                `/services/full-stack-software-development`
                                             }
                                         >
                                             Full Stack Software Development
@@ -155,7 +155,7 @@ const Footer = () => {
                                             className="footer-link"
                                             to={
                                                 process.env.PUBLIC_URL +
-                                                `/service-details/it-consulting`
+                                                `/services/it-consulting`
                                             }
                                         >
                                             IT Consulting
@@ -166,7 +166,7 @@ const Footer = () => {
                                             className="footer-link"
                                             to={
                                                 process.env.PUBLIC_URL +
-                                                `/service-details/data-and-cloud-solutions`
+                                                `/services/data-and-cloud-solutions`
                                             }
                                         >
                                             Data And Cloud Solutions
@@ -177,7 +177,7 @@ const Footer = () => {
                                             className="footer-link"
                                             to={
                                                 process.env.PUBLIC_URL +
-                                                `/service-details/business-process-automation`
+                                                `/services/business-process-automation`
                                             }
                                         >
                                             Business Process Automation
@@ -188,7 +188,7 @@ const Footer = () => {
                                             className="footer-link"
                                             to={
                                                 process.env.PUBLIC_URL +
-                                                `/service-details/crm-solutions`
+                                                `/services/crm-solutions`
                                             }
                                         >
                                             CRM Solutions
@@ -199,7 +199,7 @@ const Footer = () => {
                                             className="footer-link"
                                             to={
                                                 process.env.PUBLIC_URL +
-                                                `/service-details/api-integration-and-development`
+                                                `/services/api-integration-and-development`
                                             }
                                         >
                                             API Integration And Development
