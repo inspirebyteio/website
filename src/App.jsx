@@ -12,6 +12,8 @@ const ProjectsPage = lazy(() => import("./pages/projects"));
 const PrivacyPage = lazy(() => import("./pages/privacy"));
 const FaqPage = lazy(() => import("./pages/faq"));
 const ContactPage = lazy(() => import("./pages/contact"));
+const BlogPage = lazy(() => import("./pages/blog"));
+const BlogDetails = lazy(() => import("./pages/blog-details"));
 
 import "swiper/components/navigation/navigation.scss";
 import "swiper/swiper.scss";
@@ -81,6 +83,14 @@ const RoutesWithTracking = () => {
                     <Route
                         path={`${process.env.PUBLIC_URL + "/privacy"}`}
                         component={PrivacyPage}
+                    />
+                    <Route
+                        path={`${process.env.PUBLIC_URL + "/blog"}`}
+                        component={BlogPage}
+                    />
+                    <Route
+                        path={`${process.env.PUBLIC_URL + "/blog-details/:slug"}`}
+                        component={BlogDetails}
                     />
                 </Switch>
             </Suspense>
