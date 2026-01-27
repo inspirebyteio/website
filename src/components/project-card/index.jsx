@@ -5,40 +5,34 @@ const ProjectCard = ({ data }) => {
     return (
         <div className="project-card">
             <div className="thumb">
-                <a href={data.website} target="_blank"><img src={process.env.PUBLIC_URL + data.image} alt={`${data.description}, ${data.type}`} /></a>
+                <a href={data.website} target="_blank" rel="noopener noreferrer">
+                    <img src={process.env.PUBLIC_URL + data.image} alt={data.name} />
+                </a>
             </div>
             <div className="content">
-                <a href={data.website} target="_blank"><h3 className="title">{data.name}</h3></a>
-                <h6>{data.description}</h6>
-                <hr/>
-                <ul>                   
-                    <li>
-                        {data.type.map((tag, index) => (
-                            <span key={index} className="tag">
-                            {tag}
-                            </span>
-                        ))}
-                    </li>
-                    {/*<li>{data.industries}</li>*/}
-                    <hr/>
-                    <li>
-                        <ul>
-                        {data.features.map((feature, index) => (
-                            <li key={index} className="feature">
+                <a href={data.website} target="_blank" rel="noopener noreferrer">
+                    <h3 className="title">{data.name}</h3>
+                </a>
+                <hr />
+                <ul className="feature-list">
+                    {data.features.map((feature, index) => (
+                        <li key={index} className="feature">
                             {feature}
-                            </li>
-                        ))}
-                        </ul>
-                    </li>
-                    {/*<li>{data.website}</li>*/}
-                </ul>                
-            </div>            
+                        </li>
+                    ))}
+                </ul>
+            </div>
         </div>
     );
 };
 
 ProjectCard.propTypes = {
-    data: PropTyps.object,
+    data: PropTyps.shape({
+        name: PropTyps.string,
+        image: PropTyps.string,
+        website: PropTyps.string,
+        features: PropTyps.arrayOf(PropTyps.string),
+    }),
 };
 
 export default ProjectCard;
