@@ -103,7 +103,7 @@ const MobileMenu = ({ show, onClose }) => {
                                         <NavLink
                                             to={
                                                 process.env.PUBLIC_URL +
-                                                "/services/full-stack-software-development"
+                                                "/services/full-stack-development"
                                             }
                                         >
                                             single service

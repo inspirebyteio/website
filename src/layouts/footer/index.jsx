@@ -144,7 +144,7 @@ const Footer = () => {
                                             className="footer-link"
                                             to={
                                                 process.env.PUBLIC_URL +
-                                                `/services/full-stack-software-development`
+                                                `/services/full-stack-development`
                                             }
                                         >
                                             Full Stack Software Development
@@ -166,7 +166,7 @@ const Footer = () => {
                                             className="footer-link"
                                             to={
                                                 process.env.PUBLIC_URL +
-                                                `/services/data-and-cloud-solutions`
+                                                `/services/cloud-solutions`
                                             }
                                         >
                                             Data And Cloud Solutions
@@ -199,7 +199,7 @@ const Footer = () => {
                                             className="footer-link"
                                             to={
                                                 process.env.PUBLIC_URL +
-                                                `/services/api-integration-and-development`
+                                                `/services/api-integration`
                                             }
                                         >
                                             API Integration And Development

@@ -18,8 +18,16 @@ const BlogDetails = () => {
             <Layout>
                 <div className="wrapper text-center py-10">
                     <h2>Post Not Found</h2>
-                    <p>The blog post you're looking for doesn't exist.</p>
-                    <a href={`${process.env.PUBLIC_URL}/blog`} className="btn btn-primary mt-4">Back to Blog</a>
+                    <p>
+                        The blog post you&apos;re looking for doesn&apos;t
+                        exist.
+                    </p>
+                    <a
+                        href={`${process.env.PUBLIC_URL}/blog`}
+                        className="btn btn-primary mt-4"
+                    >
+                        Back to Blog
+                    </a>
                 </div>
             </Layout>
         );
@@ -31,7 +39,9 @@ const BlogDetails = () => {
                 <SEO
                     title={`${data.title} | InspireByte Blog`}
                     description={data.excerpt}
-                    keywords={`InspireByte, ${data.category}, ${data.tags.join(", ")}`}
+                    keywords={`InspireByte, ${data.category}, ${data.tags.join(
+                        ", "
+                    )}`}
                     image={data.thumbnail}
                     author={data.author}
                 />

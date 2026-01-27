@@ -33,7 +33,7 @@ const ServicePage = () => {
                         <br><br>
                         We understand that each business is different, which is why we focus on personalization — not one-size-fits-all. Our agile process ensures that we collaborate closely with you at every step to deliver practical, cost-effective, and high-performing solutions.
                         <br><br>
-                        From <a href='/services/full-stack-software-development'>custom software</a> and <a href='/services/business-process-automation'>automation tools</a> to <a href='/services/crm-solutions'>CRM integration</a> and <a href='/services/api-integration-and-development'>seamless API connectivity</a>, we build the tech stack that fuels your business.
+                        From <a href='/services/full-stack-development'>custom software</a> and <a href='/services/business-process-automation'>automation tools</a> to <a href='/services/crm-solutions'>CRM integration</a> and <a href='/services/api-integration'>seamless API connectivity</a>, we build the tech stack that fuels your business.
                         <br><br>
                         <strong>Partner with Inspirebyte to transform your business today</strong> and embark on a journey of innovation, efficiency, and digital excellence."
                         image="images/service/inspirebyte-services.png"
