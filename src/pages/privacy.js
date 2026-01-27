@@ -24,7 +24,7 @@ const PrivacyPage = () => {
                     <PageBanner
                         title="Privacy Policy"
                         excerpt="At InspireByte, your privacy matters. This Privacy Policy outlines how we collect, use, and safeguard the information you provide while using our website and services. We are committed to maintaining transparency and protecting your personal data through secure practices and responsible data handling."
-                        image="/images/service/media.png"
+                        image="images/service/media.png"
                     />
 
                     <div className="privacy-policy-content section-padding">

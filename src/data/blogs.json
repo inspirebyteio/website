@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "Leveraging AI for Modern Business Growth",
+        "slug": "leveraging-ai-for-business",
+        "date": "2026-01-20",
+        "category": "Technology",
+        "author": "InspireByte Team",
+        "thumbnail": "images/service/software-development-expertise-dehradun.webp",
+        "excerpt": "Discover how AI is no longer just a buzzword but a critical tool for scaling operations and improving customer experience.",
+        "tags": [
+            "AI",
+            "Business",
+            "Innovation"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Mastering Workflow Automation in 2026",
+        "slug": "mastering-workflow-automation",
+        "date": "2026-01-18",
+        "category": "Automation",
+        "author": "InspireByte Team",
+        "thumbnail": "images/service/business-automation-solutions-india.webp",
+        "excerpt": "Automation is the key to efficiency. Learn how to identify bottlenecks and implement seamless workflows for your team.",
+        "tags": [
+            "Automation",
+            "Workflow",
+            "Efficiency"
+        ]
+    }
+]
