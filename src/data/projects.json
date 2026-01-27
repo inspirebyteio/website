@@ -1,78 +1,54 @@
 [
   {
     "id": "1",
-    "name": "Revisor",
-    "description": "Revisor is an all-in-one real estate management platform designed for real estate professionals, investors, and agencies looking to streamline their operations and focus on business growth.",
-    "type": ["Web", "REI", "Business Automation"],
-    "industries": ["Home Automation"],
+    "name": "REVISOR Automated REI System",
     "features": [
-      "Integrated Lead Capture",
-      "Advanced Workflow Automation",
-      "Comprehensive Support and Training",
-      "Effortless Data Management"
+      "Real Estate Operations",
+      "CRM & Workflow Automation",
+      "Lead & Deal Management",
+      "Business Process Systems",
+      "Scalable Sales Operations"
     ],
-    "image": "images/projects/revisor_real_estate_investment_system.gif",
+    "image": "images/projects/REVISOR-Automated-REI-System.png",
     "website": "https://revisor.in/"
   },
   {
     "id": "2",
-    "name": "Real Estate Investment System",
-    "description": "This project delivers a comprehensive Real Estate Podio CRM, tailored to meet the client’s goals, streamline operations, and boost revenue.",
-    "type": ["CRM", "ERP", "Business Automation", "Dashboard"],
-    "industries": ["E-commerce"],
+    "name": "Market Insights and Analytics Platform",
     "features": [
-      "Lead Generation Procedure",
-      "Campaign Management",
-      "Email/SMS/Voicemail Marketing",
-      "Automated Follow-Up System",
-      "KPI Dashboard & Tracking"
+      "Business Analytics & Reporting",
+      "Performance Dashboards",
+      "Decision-Making Systems",
+      "Automated Business Reports",
+      "Revenue & Funnel Analytics"
     ],
-    "image": "images/projects/Podio_REI_System_Automation.gif",
+    "image": "images/projects/Market-Insights-and-Analytics-Platform.png",
     "website": "https://www.upwork.com/agencies/inspirebyte/"
   },
   {
     "id": "3",
-    "name": "Real Estate Data Scraper & CSV Generator",
-    "description": "spearheaded a dynamic project focused on automating data extraction from InvestorLift, a premier property platform Leveraging advanced web scraping techniques",
-    "type": ["Automation", "Web Wrangling", "Desktop Application"],
-    "industries": ["Customer Support", "SaaS"],
+    "name": "Growth Operations Automation Platform",
     "features": [
-      "Web Automation",
-      "Data Gather and Clean",
-      "Autorun",
-      "Desktop GUI"
+      "Marketing Automation Systems",
+      "Lead Nurturing Automation",
+      "Multi-Channel Campaigns",
+      "Sales & Marketing Integrations",
+      "Growth Automation"
     ],
-    "image": "images/projects/Data_Scraper_CSV_Generator.gif",
+    "image": "images/projects/Growth-Operations-Automation-Platform.png",
     "website": "https://www.upwork.com/agencies/inspirebyte/"
   },
   {
     "id": "4",
-    "name": "Healthcare Appointment Scheduler",
-    "description": "A scheduling tool for hospitals and clinics to streamline appointment booking and patient management.",
-    "type": ["Web", "Business Automation"],
-    "industries": ["Healthcare"],
+    "name": "Real Estate Data Scrapper and CSV Generator",
     "features": [
-      "Real-time Availability Check",
-      "Automated Reminders",
-      "Patient Profile Management",
-      "Integration with EHR Systems"
+      "Real Estate Data Extraction",
+      "Automated Lead Lists",
+      "Web Data Collection",
+      "Sales Data Automation",
+      "Data Processing Systems"
     ],
-    "image": "images/projects/project-placeholder.png",
-    "website": "https://www.upwork.com/agencies/inspirebyte/"
-  },
-  {
-    "id": "5",
-    "name": "Ford Dealership Data Scraping",
-    "description": "Extensive data scraping initiative targeting all Ford dealerships across regions Employing sophisticated web scraping techniques, I meticulously gathered and processed comprehensive information from diverse Ford dealership websites.",
-    "type": ["Web", "Business Automation"],
-    "industries": ["Real Estate"],
-    "features": [
-      "Lead Management",
-      "Scraping tool for extracting data",
-      "Workflow Automation",
-      "Detailed Analytics Dashboard"
-    ],
-    "image": "images/projects/Ford_Dealership_data_Scraping.gif",
+    "image": "images/projects/Real-Estate-Data-Scrapper-and-CSV-Generator.png",
     "website": "https://www.upwork.com/agencies/inspirebyte/"
   }
 ]
