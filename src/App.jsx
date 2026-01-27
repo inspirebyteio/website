@@ -75,9 +75,15 @@ const RoutesWithTracking = () => {
                     />
                     <Route
                         path={`${process.env.PUBLIC_URL + "/service-details/:param"}`}
-                        render={({ match }) => (
-                            <Redirect to={`${process.env.PUBLIC_URL}/services/${match.params.param}`} />
-                        )}
+                        render={({ match }) => {
+                            const slugMap = {
+                                "full-stack-software-development": "full-stack-development",
+                                "data-and-cloud-solutions": "cloud-solutions",
+                                "api-integration-and-development": "api-integration"
+                            };
+                            const targetSlug = slugMap[match.params.param] || match.params.param;
+                            return <Redirect to={`${process.env.PUBLIC_URL}/services/${targetSlug}`} />;
+                        }}
                     />
 
                     <Route
