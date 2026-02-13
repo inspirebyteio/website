@@ -20,8 +20,8 @@ const MainMenu = () => {
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to={process.env.PUBLIC_URL + "/blog"}>
-                        Blog
+                    <NavLink to={process.env.PUBLIC_URL + "/articles"}>
+                        Articles
                     </NavLink>
                 </li>
                 <li>

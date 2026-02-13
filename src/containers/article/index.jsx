@@ -1,18 +1,18 @@
 import React, { useState } from "react";
-import BlogCard from "../../components/blog-card";
-import BlogData from "../../data/blogs.json";
+import ArticleCard from "../../components/article-card";
+import ArticleData from "../../data/articles.json";
 
-const BlogList = () => {
+const ArticleList = () => {
     const [filter, setFilter] = useState("All");
 
-    const categories = ["All", ...new Set(BlogData.map(item => item.category))];
+    const categories = ["All", ...new Set(ArticleData.map(item => item.category))];
 
-    const filteredBlogs = filter === "All"
-        ? BlogData
-        : BlogData.filter(item => item.category === filter);
+    const filteredArticles = filter === "All"
+        ? ArticleData
+        : ArticleData.filter(item => item.category === filter);
 
     return (
-        <div className="blog-section section-py">
+        <div className="article-section section-py">
             <div className="container">
                 <div className="row mb-5 justify-content-center">
                     <div className="col-12 text-center">
@@ -22,8 +22,8 @@ const BlogList = () => {
                                     key={index}
                                     onClick={() => setFilter(cat)}
                                     className={`btn btn-sm mx-1 px-4 py-2 rounded-pill transition-base ${filter === cat
-                                            ? "btn-primary"
-                                            : "btn-outline-primary"
+                                        ? "btn-primary"
+                                        : "btn-outline-primary"
                                         }`}
                                 >
                                     {cat}
@@ -33,15 +33,15 @@ const BlogList = () => {
                     </div>
                 </div>
                 <div className="row g-4 mb-n7">
-                    {filteredBlogs.length > 0 ? (
-                        filteredBlogs.map((item, key) => (
+                    {filteredArticles.length > 0 ? (
+                        filteredArticles.map((item, key) => (
                             <div key={key} className="col-12 col-md-6 col-lg-4 mb-7 animate-fade-in">
-                                <BlogCard data={item} />
+                                <ArticleCard data={item} />
                             </div>
                         ))
                     ) : (
                         <div className="col-12 text-center py-5">
-                            <h3 className="text-muted">No blogs found in this category.</h3>
+                            <h3 className="text-muted">No articles found in this category.</h3>
                         </div>
                     )}
                 </div>
@@ -50,4 +50,4 @@ const BlogList = () => {
     );
 };
 
-export default BlogList;
+export default ArticleList;

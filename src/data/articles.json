@@ -4,8 +4,9 @@
         "title": "How We Build At Inspirebyte",
         "slug": "how-we-build-at-inspirebyte",
         "date": "2026-01-20",
-        "category": "Engineering",
+        "category": "Technology",
         "author": "Mohit Gauniyal",
+        "authorImage": "images/team/mohit-gauniyal.png",
         "thumbnail": "images/service/software-development-expertise-dehradun.png",
         "excerpt": "A look into how we build at Inspirebyte — not driven by rigid frameworks, but by deliberate decisions, practical systems thinking, and a focus on reliability, clarity, and steady improvement over time.",
         "tags": [
