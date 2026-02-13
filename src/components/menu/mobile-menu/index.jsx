@@ -66,8 +66,8 @@ const MobileMenu = ({ show, onClose }) => {
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink to={process.env.PUBLIC_URL + "/blog"}>
-                                    Blog
+                                <NavLink to={process.env.PUBLIC_URL + "/articles"}>
+                                    Articles
                                 </NavLink>
                             </li>
                             <li>
@@ -141,8 +141,8 @@ const MobileMenu = ({ show, onClose }) => {
                             </li>
                             
                             <li>
-                                <NavLink to={process.env.PUBLIC_URL + "/blog"}>
-                                    Blog
+                                <NavLink to={process.env.PUBLIC_URL + "/articles"}>
+                                    Articles
                                 </NavLink>
                                 <span
                                     className="menu-expand"
@@ -153,40 +153,40 @@ const MobileMenu = ({ show, onClose }) => {
                                     <li>
                                         <NavLink
                                             to={
-                                                process.env.PUBLIC_URL + "/blog"
+                                                process.env.PUBLIC_URL + "/articles"
                                             }
                                         >
-                                            blog
+                                            articles
                                         </NavLink>
                                     </li>
                                     <li>
                                         <NavLink
                                             to={
                                                 process.env.PUBLIC_URL +
-                                                "/blog-left-sidebar"
+                                                "/articles-left-sidebar"
                                             }
                                         >
-                                            blog grid left sidebar
+                                            articles grid left sidebar
                                         </NavLink>
                                     </li>
                                     <li>
                                         <NavLink
                                             to={
                                                 process.env.PUBLIC_URL +
-                                                "/blog-right-sidebar"
+                                                "/articles-right-sidebar"
                                             }
                                         >
-                                            blog grid right sidebar
+                                            articles grid right sidebar
                                         </NavLink>
                                     </li>
                                     <li>
                                         <NavLink
                                             to={
                                                 process.env.PUBLIC_URL +
-                                                "/blog-details/1"
+                                                "/article/1"
                                             }
                                         >
-                                            blog details
+                                            article details
                                         </NavLink>
                                     </li>
                                 </ul>

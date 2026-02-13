@@ -10,7 +10,7 @@ const SidebarPost = ({ data }) => {
                         <Link
                             to={
                                 process.env.PUBLIC_URL +
-                                `/blog-details/${single.id}`
+                                `/article/${single.id}`
                             }
                             className="post-thumb"
                         >
@@ -24,7 +24,7 @@ const SidebarPost = ({ data }) => {
                                 <Link
                                     to={
                                         process.env.PUBLIC_URL +
-                                        `/blog-details/${single.id}`
+                                        `/article/${single.id}`
                                     }
                                 >
                                     {single.title}
