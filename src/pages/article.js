@@ -13,15 +13,17 @@ const ArticlePage = () => {
             <Layout>
                 <SEO
                     title="InspireByte Articles | Tech Insights & Automation Trends"
-                    description="Stay updated with the latest in AI, business automation, and custom software development. Expert insights from the InspireByte team."
-                    keywords="InspireByte articles, tech articles, AI insights, automation trends, software development tips"
+                    description="Thoughts from building, shipping, and maintaining software that has to hold up over time.
+Expect practical breakdowns on systems, automation, and product thinking."
+                    keywords="InspireByte articles, tech articles, AI insights, automation trends, software development"
                     author="InspireByte"
                 />
                 <div className="wrapper">
                     <Header />
                     <PageBanner
                         title="Our Articles"
-                        excerpt="Knowledge is the bridge between imagination and innovation. Explore our latest thoughts on technology, business automation, and scaling digital success."
+                        excerpt="Thoughts from building, shipping, and maintaining software that has to hold up over time.
+Expect practical breakdowns on systems, automation, and product thinking."
                         image="images/service/inspirebyte-services.png"
                     />
                     <ArticleList />

@@ -4,9 +4,7 @@
     "extends": [
         "plugin:react/recommended",
         "plugin:import/warnings",
-        "plugin:jsx-a11y/strict",
-        "plugin:prettier/recommended",
-        "prettier"
+        "plugin:jsx-a11y/strict"
     ],
     "settings": {
         "react": {
@@ -32,16 +30,11 @@
         "jsx-a11y"
     ],
     "rules": {
+        "prettier/prettier": "off",
         "react/react-in-jsx-scope": "off",
         "react/require-default-props": 0,
         "react-hooks/rules-of-hooks": "error",
         "react-hooks/exhaustive-deps": "warn",
-        "prettier/prettier": [
-            "error",
-            {
-                "endOfLine": "auto"
-            }
-            ],
         "jsx-a11y/label-has-associated-control": [
             "error",
             {

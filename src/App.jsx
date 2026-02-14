@@ -14,6 +14,7 @@ const FaqPage = lazy(() => import("./pages/faq"));
 const ContactPage = lazy(() => import("./pages/contact"));
 const ArticlePage = lazy(() => import("./pages/article"));
 const ArticleDetails = lazy(() => import("./pages/article-details"));
+const NotFoundPage = lazy(() => import("./pages/not-found"));
 
 import "swiper/components/navigation/navigation.scss";
 import "swiper/swiper.scss";
@@ -114,6 +115,7 @@ const RoutesWithTracking = () => {
                         path={`${process.env.PUBLIC_URL + "/article/:slug"}`}
                         component={ArticleDetails}
                     />
+                    <Route component={NotFoundPage} />
                 </Switch>
             </Suspense>
         </NavScrollTop>

@@ -15,17 +15,23 @@ const ArticleCard = ({ data }) => {
                 </Link>
             </div>
             <div className="content p-4">
-                <div className="meta mb-3 d-flex align-items-center justify-content-between">
+                <div className="meta mb-2 d-flex align-items-center justify-content-between">
                     <span className="category badge bg-primary-soft text-primary px-3 py-2 rounded-pill">
                         {data.category}
                     </span>
-                    <span className="badge text-primary rounded-pill">
-                        ~ {data.author}
+                </div>
+
+                <div className="byline small mb-3 d-flex align-items-center gap-2">
+                    <span>
+                        <i className="icofont-user mr-1"> </i>
+                        By <strong className="text-dark">{data.author}</strong>
+                    </span>
+                    <span className="mx-2">•</span>
+                    <span>
+                        <i className="icofont-calendar mr-1"> </i>
+                        {data.date}
                     </span>
                 </div>
-                <h3 className="date small">
-                    <i className="icofont-calendar mr-1"></i> {data.date}
-                </h3>
                 <h3 className="title h5 mb-3">
                     <Link to={`${process.env.PUBLIC_URL}/article/${data.slug}`} className="text-dark hover-primary-text deco-none">
                         {data.title}
