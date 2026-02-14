@@ -253,15 +253,11 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div className="copy-right-section">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-12">
-                            <div className="copyright-info text-center">
-                                <p>Copyright &copy; InspireByte | 2023</p>
-                            </div>
+                    <div className="row mt-5 pt-4 border-top">
+                        <div className="col-12 text-center">
+                            <p className="mb-0 small">
+                                © {new Date().getFullYear()} Inspirebyte. All rights reserved.
+                            </p>
                         </div>
                     </div>
                 </div>
