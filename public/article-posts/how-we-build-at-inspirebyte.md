@@ -1,14 +1,17 @@
 # How We Build at Inspirebyte
 
-Over time, people have asked what our “process” looks like at [Inspirebyte](https://www.inspirebyte.io).
-The honest answer?
-Not always textbook, but always thought through. Our process is less about rigid frameworks, and more about deliberate decisions. Got to design for systems that need to hold up over time, so that naturally keeps our decisions centered around clarity, accountability, and steady improvement.
+As we build and grow [Inspirebyte](https://www.inspirebyte.io) as an agency, we’ve been defining what our “process” looks like day to day.
+
+And the honest answer?
+Not always textbook, but always thought through.
+
+Our process is less about rigid frameworks, and more about deliberate decisions. Got to design for systems that need to hold up over time, so that naturally keeps our decisions centered around clarity, accountability, and steady improvement.
 Most of this isn’t a strict process written on a whiteboard. It’s just a set of patterns that show up across projects, the processes we follow, how we approach problems, [choose infrastructure](https://www.inspirebyte.io/services),and keep improving things over time.
 Here’s roughly how our thinking tends to play out when we’re building -
 
 ## Problems Shape the Tech
 
-We don’t begin with architecture diagrams or predefined stacks just to make it look fancy. Most decisions start with the problem itself(as they should), what needs to be solved, what could break along the way, and what absolutely cannot be allowed to break. Those answers usually tell us more about the right approach than any trend or framework ever could.
+For most client builds, We usually don’t start with fancy architecture diagrams or locked-in stacks. Most decisions start with the problem itself(as they should), what needs to be solved, what could break along the way, and what absolutely cannot be allowed to break. Those answers usually tell us more about the right approach than any trend or framework ever could.
 From there, the structure starts to shape naturally. Some parts of a system call for strong foundations and careful planning. Others can stay flexible and evolve with usage.
 
 ## Infrastructure Is Chosen to Survive
@@ -18,7 +21,7 @@ The goal isn’t to build something impressive for day one. It’s to build some
 
 ## Not Everything Needs Polish
 
-Inside our own workflows, and the internal tools, speed often matters more than presentation. Some tools are built quickly to solve immediate problems, and they serve their purpose without needing to be perfectly refined from day one.
+For our internal tools, the approach is a bit different. Here, speed often matters more than presentation. Some tools are built quickly to solve immediate problems, and they serve their purpose without needing to be perfectly refined from day one.
 
 So yes:
 
