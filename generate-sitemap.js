@@ -49,6 +49,22 @@ function generateSitemap() {
         console.error('❌ Error reading service.json:', error.message);
     }
 
+    // Add Dynamic Article Routes
+    try {
+        const articleDataPath = path.join(DATA_DIR, 'articles.json');
+        if (fs.existsSync(articleDataPath)) {
+            const articles = JSON.parse(fs.readFileSync(articleDataPath, 'utf8'));
+            articles.forEach(article => {
+                xml += `  <url>\n`;
+                xml += `    <loc>${BASE_URL}/article/${article.slug}</loc>\n`;
+                xml += `    <priority>0.8</priority>\n`;
+                xml += `  </url>\n`;
+            });
+        }
+    } catch (error) {
+        console.error('❌ Error reading articles.json:', error.message);
+    }
+
     xml += '</urlset>';
 
     fs.writeFileSync(SITEMAP_PATH, xml);

@@ -14,5 +14,23 @@
             "Systems Thinking",
             "Development Process"
         ]
+    },
+    {
+        "id": 2,
+        "title": "Why Software Projects Struggle After Go-Live — And How to Prevent It",
+        "slug": "why-software-projects-struggle-after-go-live",
+        "date": "2026-02-28",
+        "category": "Software Delivery",
+        "author": "Kuldeep Singh Bisht",
+        "authorImage": "images/team/kuldeep-singh-bisht.png",
+        "thumbnail": "images/service/business-automation-solutions-india.png",
+        "excerpt": "An exploration of why software projects often struggle after go-live, and how clear ownership, operational alignment, and disciplined delivery practices help systems remain reliable long after deployment.",
+        "tags": [
+            "Software Delivery",
+            "Project Management",
+            "Operational Alignment",
+            "Systems Thinking",
+            "Implementation Strategy"
+        ]
     }
 ]
