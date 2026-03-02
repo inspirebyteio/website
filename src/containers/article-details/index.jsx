@@ -36,7 +36,7 @@ const ArticleDetailsContainer = ({ data }) => {
                                     </div>
                                     <div>
                                         <h6 className="mb-0 text-white">{data.author}</h6>
-                                        <span className="small text-muted-custom">Senior Software Engineer</span>
+                                        <span className="small text-muted-custom">{data.authorRole}</span>
                                     </div>
                                 </div>
                             </div>

@@ -7,6 +7,7 @@
         "category": "Technology",
         "author": "Mohit Gauniyal",
         "authorImage": "images/team/mohit-gauniyal.png",
+        "authorRole": "Senior Software Engineer",
         "thumbnail": "images/service/software-development-expertise-dehradun.png",
         "excerpt": "A look into how we build at Inspirebyte — not driven by rigid frameworks, but by deliberate decisions, practical systems thinking, and a focus on reliability, clarity, and steady improvement over time.",
         "tags": [
@@ -23,6 +24,7 @@
         "category": "Software Delivery",
         "author": "Kuldeep Singh Bisht",
         "authorImage": "images/team/kuldeep-singh-bisht.png",
+        "authorRole": "Project Development Manager",
         "thumbnail": "images/service/business-automation-solutions-india.png",
         "excerpt": "An exploration of why software projects often struggle after go-live, and how clear ownership, operational alignment, and disciplined delivery practices help systems remain reliable long after deployment.",
         "tags": [
@@ -41,6 +43,7 @@
         "category": "Software Delivery",
         "author": "Sujeet Painuly",
         "authorImage": "images/team/sujeet-painuly.png",
+        "authorRole": "Co-Founder & CTO",
         "thumbnail": "images/service/software-development-expertise-dehradun.png",
         "excerpt": "A practical perspective on designing software systems that scale without becoming fragile, focusing on clear ownership, architectural boundaries, and intentional integration strategies that support long-term stability.",
         "tags": [
