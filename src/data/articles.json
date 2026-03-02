@@ -32,5 +32,23 @@
             "Systems Thinking",
             "Implementation Strategy"
         ]
+    },
+    {
+        "id": 3,
+        "title": "Designing Software Systems That Scale Without Fragility",
+        "slug": "designing-software-systems-that-scale-without-fragility",
+        "date": "2026-03-02",
+        "category": "Software Delivery",
+        "author": "Sujeet Painuly",
+        "authorImage": "images/team/sujeet-painuly.png",
+        "thumbnail": "images/service/software-development-expertise-dehradun.png",
+        "excerpt": "A practical perspective on designing software systems that scale without becoming fragile, focusing on clear ownership, architectural boundaries, and intentional integration strategies that support long-term stability.",
+        "tags": [
+            "System Architecture",
+            "Scalable Systems",
+            "Software Design",
+            "Integration Strategy",
+            "Systems Thinking"
+        ]
     }
 ]
