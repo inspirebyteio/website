@@ -4,6 +4,8 @@
         "thumb": "images/team/sandeep-maurya.png",
         "name": "Sandeep Maurya",
         "designation": "Automation Maestro",
+        "role": "Co-Founder & CEO",
+        "bio": "",
         "linkedin": "https://www.linkedin.com/in/sandeepmaurya1/"
     },
     {
@@ -11,6 +13,8 @@
         "thumb": "images/team/sujeet-painuly.png",
         "name": "Sujeet Painuly",
         "designation": "Full Stack Wizard",
+        "role": "Co-Founder & CTO",
+        "bio": "",
         "linkedin": "https://www.linkedin.com/in/sujeetpainuly/"
     },
     {
@@ -18,6 +22,8 @@
         "thumb": "images/team/kuldeep-singh-bisht.png",
         "name": "Kuldeep Singh Bisht",
         "designation": "Business Matchmaker",
+        "role": "Project Development Manager",
+        "bio": "Kuldeep Singh Bisht leads client-facing project planning and delivery at InspireByte, bridging business requirements and technical execution across automation and integration-driven systems.",
         "linkedin": "https://www.linkedin.com/in/kuldeepsinghbisht/"
     },
     {
@@ -25,13 +31,17 @@
         "thumb": "images/team/mohit-gauniyal.png",
         "name": "Mohit Gauniyal",
         "designation": "The Orchestrator",
+        "role": "Senior Software Engineer",
+        "bio": "Mohit Gauniyal is a senior software engineer with expertise in designing and shipping scalable, maintainable software systems at InspireByte.",
         "linkedin": "https://www.linkedin.com/in/mohitgauniyal/"
     },
     {
         "id": 5,
         "thumb": "images/team/hariom-semwal.png",
         "name": "Hariom Semwal",
+        "role": "Backend Developer",
         "designation": "Backend Craftsman",
+        "bio": "",
         "linkedin": "https://www.linkedin.com/in/hariomsemwal/"
     }
 ]
