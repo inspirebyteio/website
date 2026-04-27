@@ -1,15 +1,31 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import ArticleCard from "../../components/article-card";
-import ArticleData from "../../data/articles.json";
+import { getAllBlogs } from "../../services/blogService";
 
 const ArticleList = () => {
     const [filter, setFilter] = useState("All");
+    const [articles, setArticles] = useState([]);
 
-    const categories = ["All", ...new Set(ArticleData.map(item => item.category))];
+    useEffect(() => {
+        const fetchBlogs = async () => {
+            try {
+                const data = await getAllBlogs();
+                if (data) {
+                    setArticles(data);
+                }
+            } catch (err) {
+                console.error("Failed to fetch blogs:", err.message);
+            }
+        };
+
+        fetchBlogs();
+    }, []);
+
+    const categories = ["All", ...new Set(articles.map(item => item.category))];
 
     const filteredArticles = filter === "All"
-        ? ArticleData
-        : ArticleData.filter(item => item.category === filter);
+        ? articles
+        : articles.filter(item => item.category === filter);
 
     return (
         <div className="article-section section-py">

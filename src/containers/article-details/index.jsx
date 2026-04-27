@@ -1,14 +1,13 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
-import ArticleData from "../../data/articles.json";
 import { Link } from "react-router-dom";
-
 import ArticleContent from "../../data/article-content.json";
 
-const ArticleDetailsContainer = ({ data }) => {
-    const content = ArticleContent[data.slug] || "Content not found.";
+const ArticleDetailsContainer = ({ data, allBlogs = [] }) => {
+    // Both details come from data, but we pull the full markdown body from our local JSON file via slug
+    const content = data.content || ArticleContent[data.slug] || "Content not found in database or local file.";
 
-    const recentPosts = ArticleData.filter(post => post.slug !== data.slug).slice(0, 3);
+    const recentPosts = allBlogs.filter(post => post.slug !== data.slug).slice(0, 3);
 
     return (
         <div className="article-details-section section-py">
@@ -29,7 +28,13 @@ const ArticleDetailsContainer = ({ data }) => {
                                 <div className="author-info d-flex align-items-center">
                                     <div className="avatar me-3 bg-primary rounded-circle d-flex align-items-center justify-content-center" style={{ width: '50px', height: '50px' }}>
                                         <img
-                                            src={process.env.PUBLIC_URL + "/" + data.authorImage}
+                                            src={
+                                                (data.authorImage?.url || data.authorImage)?.startsWith("http")
+                                                    ? (data.authorImage?.url || data.authorImage)
+                                                    : process.env.PUBLIC_URL + 
+                                                      ((data.authorImage?.url || data.authorImage)?.startsWith("/") ? "" : "/") + 
+                                                      (data.authorImage?.url || data.authorImage)
+                                            }
                                             alt="author"
                                             className="img-fluid rounded-circle"
                                         />
@@ -50,7 +55,9 @@ const ArticleDetailsContainer = ({ data }) => {
                                             <Link to={`${process.env.PUBLIC_URL}/article/${post.slug}`} className="text-dark hover-primary-text deco-none">
                                                 <h6 className="mb-1 small font-weight-bold">{post.title}</h6>
                                             </Link>
-                                            <span className="text-muted small">{post.date}</span>
+                                            <span className="text-muted small">
+                                                {post.date || (post.createdAt ? new Date(post.createdAt).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' }) : '')}
+                                            </span>
                                         </li>
                                     ))}
                                 </ul>
@@ -60,14 +67,14 @@ const ArticleDetailsContainer = ({ data }) => {
                             <div className="sidebar-widget card shadow-sm border-0 p-4 rounded-3">
                                 <h4 className="widget-title mb-4">Categories</h4>
                                 <ul className="categories list-unstyled mb-0">
-                                    {[...new Set(ArticleData.map(p => p.category))].map((cat, index) => (
+                                    {[...new Set(allBlogs.map(p => p.category))].map((cat, index) => (
                                         <li key={index} className="mb-2">
                                             <Link
                                                 to={`${process.env.PUBLIC_URL}/articles`}
                                                 className="text-dark hover-primary-text deco-none d-flex justify-content-between align-items-center"
                                             >
                                                 <span>{cat}</span>
-                                                <span className="badge bg-light text-dark">{ArticleData.filter(p => p.category === cat).length}</span>
+                                                <span className="badge bg-light text-dark">{allBlogs.filter(p => p.category === cat).length}</span>
                                             </Link>
                                         </li>
                                     ))}

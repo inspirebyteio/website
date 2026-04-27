@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@axetroy/react-download": "^1.1.1",
     "autoprefixer": "10.4.5",
     "disqus-react": "^1.1.1",
     "gray-matter": "^4.0.3",
