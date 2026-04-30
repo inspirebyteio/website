@@ -1,7 +1,7 @@
-# A behind the scenes look at how we design systems at Inspirebyte, thinking in systems, planning for failure, and shipping software that holds up in the real world.
+# A behind the scenes look at how we design systems at Inspirebyte
 
-We're building Vaastio - a society platform for Indian residential communities. It's the kind of app that has to work for people with different levels of comfort with technology. So ofcourse, getting the product right matters. But getting the *architecture* right matters more, because bad architecture doesn't announce itself on day one. It shows up six months later when you're trying to add a feature and realise everything is tangled together.
-This blog isn't a tutorial. It's a look at the decisions we made, and more importantly “ *why “* we made them.
+We're building [Vaastio](http://vaastio.com) - a society platform for Indian residential communities. It's the kind of app that has to work for people with different levels of comfort with technology. So ofcourse, getting the product right matters. But getting the *architecture* right matters more, because bad architecture doesn't announce itself on day one. It shows up six months later when you're trying to add a feature and realise everything is tangled together.
+This blog isn't a tutorial. It's a look at the decisions we made, and more importantly “*why“* we made them.
 
 ## The Stack, And Why We’re Keeping It Boring
 
@@ -150,13 +150,10 @@ We block the most terrible abuse, an admin cannot add themselves as owner of a f
 
 **DECISION : V1 Trust Model, Visibility over Restriction**
 
-Admin has authority.
-
-Audit log tracks everything.
-
-Affected parties can see changes.
-
-Obvious abuse is blocked.
+- Admin has authority.
+- Audit log tracks everything.
+- Affected parties can see changes.
+- Obvious abuse is blocked.
 
 Edge cases are documented for V2.
 
