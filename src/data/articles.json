@@ -53,5 +53,22 @@
             "Integration Strategy",
             "Systems Thinking"
         ]
+    },
+    {
+        "id": 4,
+        "title": "How We're Building Vaastio - Architecture Decisions That Will Last",
+        "slug": "how-were-building-vaastio-architecture-decisions-that-will-last",
+        "date": "2026-04-30",
+        "category": "Engineering",
+        "author": "Mohit Gauniyal",
+        "authorImage": "images/team/mohit-gauniyal.png",
+        "authorRole": "Senior Software Engineer",
+        "thumbnail": "images/service/software-development-expertise-dehradun.png",
+        "excerpt": "How we're building Vaastio - a look at the architectural decisions shaping the system underneath, from identity design to multi-tenant boundaries and event-driven notifications.",
+        "tags": [
+            "Architecture",
+            "Multi-tenancy",
+            "Product Development"
+        ]
     }
 ]
