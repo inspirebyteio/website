@@ -1,25 +1,58 @@
-import React from "react";
+
+import { useEffect, useState } from "react"
 import PropTypes from "prop-types";
 import Funfact from "../../../components/funfact";
-import HomeData from "../../../data/home.json";
+//import HomeData from "../../../data/home.json";
+import { getAllStats } from "../../../services/statsService";
 
-const FunFactContainer = ({ classOption }) => {
+const FunfactContainer = ({ classOption }) => {
+    const [funfact, setFunfact] = useState([])
+    const [loading, setLoading] = useState(true)
+    const [error, setError] = useState(null)
+    useEffect(() => {
+        const fetchFunfact = async () => {
+            try {
+                setLoading(true)
+                setError(null)
+                const data = await getAllStats()
+                if (data) {
+                    setFunfact(data?.data || data || [])
+                }
+
+            } catch (error) {
+                console.log(error.message)
+            } finally {
+                setLoading(false)
+            }
+        }
+        fetchFunfact()
+    }, [])
+
+    if (loading) {
+        return <p>
+            loading...
+        </p>
+    }
+    if (error) {
+        return <p>
+            error:{error}
+        </p>
+    }
     return (
-        <div
-            className={`funfact-section section-pb position-relative ${classOption}`}
-        >
+        <div className={`funfact-section section-pb position-relative ${classOption}`}>
             <div className="container">
                 <div className="row mb-n7">
-                    {HomeData[4].funfact &&
-                        HomeData[4].funfact.map((single, key) => {
-                            return (
-                                <div key={key} className="col-md-3 col-6 mb-7">
-                                    <Funfact data={single} key={key} />
-                                </div>
-                            );
-                        })}
+                    {funfact && funfact.map((single, key) => {
+                        return (
+                            <div key={key} className="col-md-3 col-6 mb-7">
+                                <Funfact data={single} key={key} />
+                            </div>
+                        )
+                    })}
                 </div>
             </div>
+
+
             <svg
                 className="funfact-svg"
                 id="funfact"
@@ -39,14 +72,14 @@ const FunFactContainer = ({ classOption }) => {
             </svg>
         </div>
     );
-};
 
-FunFactContainer.propTypes = {
+}
+FunfactContainer.propTypes = {
     classOption: PropTypes.string,
 };
 
-FunFactContainer.defaultProps = {
+FunfactContainer.defaultProps = {
     classOption: "mt-10 mt-lg-0",
 };
 
-export default FunFactContainer;
+export default FunfactContainer;
