@@ -3,10 +3,10 @@ import PropTypes from "prop-types";
 const TeamCard = ({ data }) => {
     // Backend returns full Cloudinary URLs (https://...).
     // Legacy local data uses relative paths — keep both working.
-    const imgSrc = data.thumb?.startsWith("http")
-        ? data.thumb
-        : `${process.env.PUBLIC_URL}/${data.thumb}`;
-
+    const imgSrc = data.image?.url?.startsWith("http")
+        ? data.image?.url
+        : `${process.env.PUBLIC_URL}/${data.image?.url}`;
+  
     return (
         <div className="team-card">
             <div className="thumb">

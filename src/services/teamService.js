@@ -7,6 +7,7 @@ import apiFetch from "./api";
  */
 export const getAllTeamMembers = async () => {
     const response = await apiFetch("/team-members");
+
     return response.data; // array of team member objects
 };
 
