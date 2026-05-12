@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import HomeData from "../../../data/home.json";
 import SectionTitle from "../../../components/section-title";
 import Brand from "../../../components/brand/index";
+import { getAllClients } from "../../../services/clientService";
 
 const BrandContainer = () => {
     const swiperOption = {
@@ -36,6 +36,23 @@ const BrandContainer = () => {
             },
         },
     };
+
+    const [clients, setClients] = useState([]);
+
+    useEffect(() => {
+        const fetchClients = async () => {
+            try {
+                const data = await getAllClients();
+                if (data) {
+                    setClients(data);
+                }
+            } catch (err) {
+                console.error("Failed to fetch clients:", err.message);
+            }
+        };
+
+        fetchClients();
+    }, []);
     return (
         <div className="brand-section section-py">
             <div className="container">
@@ -50,8 +67,8 @@ const BrandContainer = () => {
                 <div className="row">
                     <div className="col-12">
                         <Swiper className="brand-carousel" {...swiperOption}>
-                            {HomeData[1].brand &&
-                                HomeData[1].brand.map((single, key) => {
+                            {clients &&
+                                clients.map((single, key) => {
                                     return (
                                         <SwiperSlide key={key}>
                                             <Brand key={key} data={single} />

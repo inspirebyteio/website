@@ -8,7 +8,13 @@ const ArticleCard = ({ data }) => {
             <div className="thumb overflow-hidden rounded-top">
                 <Link to={`${process.env.PUBLIC_URL}/article/${data.slug}`}>
                     <img
-                        src={process.env.PUBLIC_URL + "/" + data.thumbnail}
+                        src={
+                            (data.thumbnail?.url || data.thumbnail)?.startsWith("http")
+                                ? (data.thumbnail?.url || data.thumbnail)
+                                : process.env.PUBLIC_URL + 
+                                  ((data.thumbnail?.url || data.thumbnail)?.startsWith("/") ? "" : "/") + 
+                                  (data.thumbnail?.url || data.thumbnail)
+                        }
                         alt={data.title}
                         className="img-fluid transition-base"
                     />
@@ -29,7 +35,7 @@ const ArticleCard = ({ data }) => {
                     <span className="mx-2">•</span>
                     <span>
                         <i className="icofont-calendar mr-1"> </i>
-                        {data.date}
+                        {data.date || (data.createdAt ? new Date(data.createdAt).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' }) : '')}
                     </span>
                 </div>
                 <h3 className="title h5 mb-3">

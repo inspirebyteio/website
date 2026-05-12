@@ -1,10 +1,11 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import SectionTitle from "../../../components/section-title";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Testimonial from "../../../components/testimonial";
 import HomeData from "../../../data/home.json";
 import SwiperCore, { Navigation } from "swiper";
 import Parallax from "parallax-js";
+import { getAllTestimonials } from "../../../services/testimonialService";
 
 SwiperCore.use([Navigation]);
 const TestimonialReverse = () => {
@@ -20,6 +21,22 @@ const TestimonialReverse = () => {
     };
 
     const sceneEl = useRef(null);
+    const [testimonials, setTestimonials] = useState([]);
+
+    useEffect(() => {
+        const fetchTestimonials = async () => {
+            try {
+                const data = await getAllTestimonials();
+                if (data) {
+                    setTestimonials(data);
+                }
+            } catch (err) {
+                console.error("Failed to fetch testimonials:", err.message);
+            }
+        };
+
+        fetchTestimonials();
+    }, []);
 
     useEffect(() => {
         const parallaxInstance = new Parallax(sceneEl.current, {
@@ -49,8 +66,8 @@ const TestimonialReverse = () => {
                         </div>
                         <div className="testimonial-carousel position-relative">
                             <Swiper {...swiperOption}>
-                                {HomeData[3].testimonial &&
-                                    HomeData[3].testimonial.map(
+                                {testimonials &&
+                                    testimonials.map(
                                         (single, key) => {
                                             return (
                                                 <SwiperSlide key={key}>

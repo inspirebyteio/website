@@ -1,12 +1,18 @@
-import PropTyps from "prop-types";
+import PropTypes from "prop-types";
 import "../../assets/css/custom.css";
 
 const ProjectCard = ({ data }) => {
+    // Backend returns full Cloudinary URLs (https://...).
+    // Legacy local data uses relative paths — keep both working.
+    const imgSrc = data.image?.startsWith("http")
+        ? data.image
+        : process.env.PUBLIC_URL + data.image;
+
     return (
         <div className="project-card">
             <div className="thumb">
                 <a href={data.website} target="_blank" rel="noopener noreferrer">
-                    <img src={process.env.PUBLIC_URL + data.image} alt={data.name} />
+                    <img src={imgSrc} alt={data.name} />
                 </a>
             </div>
             <div className="content">
@@ -27,12 +33,13 @@ const ProjectCard = ({ data }) => {
 };
 
 ProjectCard.propTypes = {
-    data: PropTyps.shape({
-        name: PropTyps.string,
-        image: PropTyps.string,
-        website: PropTyps.string,
-        features: PropTyps.arrayOf(PropTyps.string),
+    data: PropTypes.shape({
+        name: PropTypes.string,
+        image: PropTypes.string,
+        website: PropTypes.string,
+        features: PropTypes.arrayOf(PropTypes.string),
     }),
 };
 
 export default ProjectCard;
+

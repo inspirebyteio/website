@@ -9,7 +9,13 @@ const Testimonial = ({ data }) => {
             <div className="avater d-flex">
                 <div className="avater-profile">
                     <img
-                        src={process.env.PUBLIC_URL + data.authorThumb}
+                        src={
+                            (data.authorThumb?.url || data.authorThumb)?.startsWith("http")
+                                ? (data.authorThumb?.url || data.authorThumb)
+                                : process.env.PUBLIC_URL + 
+                                  ((data.authorThumb?.url || data.authorThumb)?.startsWith("/") ? "" : "/") + 
+                                  (data.authorThumb?.url || data.authorThumb)
+                        }
                         alt={`${data.name} - ${data.designation}`} 
                         style={{ borderRadius: '50%'}}
                     />
