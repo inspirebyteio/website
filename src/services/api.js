@@ -3,7 +3,7 @@
 // e.g. REACT_APP_API_BASE_URL=https://api.inspirebyte.in/api/v1
 
 const API_BASE_URL =
-    process.env.REACT_APP_API_BASE_URL || "http://localhost:4001";
+    process.env.REACT_APP_API_BASE_URL
 
 /**
  * Generic fetch wrapper
