@@ -1,11 +1,11 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
 import { Link } from "react-router-dom";
-import ArticleContent from "../../data/article-content.json";
+//import ArticleContent from "../../data/article-content.json";
 
 const ArticleDetailsContainer = ({ data, allBlogs = [] }) => {
     // Both details come from data, but we pull the full markdown body from our local JSON file via slug
-    const content = data.content || ArticleContent[data.slug] || "Content not found in database or local file.";
+    const content = data.content || "Content not found in database or local file.";
 
     const recentPosts = allBlogs.filter(post => post.slug !== data.slug).slice(0, 3);
 

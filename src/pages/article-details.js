@@ -4,32 +4,37 @@ import PageBanner from "../containers/global/page-banner";
 import Footer from "../layouts/footer";
 import Header from "../layouts/header";
 import Layout from "../layouts/index";
-import { getAllBlogs } from "../services/blogService";
+import { getAllBlogs, getSlugBlog } from "../services/blogService";
 import ArticleDetailsContainer from "../containers/article-details";
 import ScrollToTop from "../components/scroll-to-top";
 import SEO from "../components/seo";
 
 const ArticleDetails = () => {
     const { slug } = useParams();
-    const [blogs, setBlogs] = useState([]);
-    const [loading, setLoading] = useState(true);
 
+    const [blog, setBlog] = useState(null);
+    const [allBlogs, setAllBlogs] = useState([]);
+
+    const [loading, setLoading] = useState(true);
     useEffect(() => {
-        const fetchBlogs = async () => {
+        const fetchData = async () => {
             try {
-                const data = await getAllBlogs();
-                if (data) {
-                    setBlogs(data);
-                }
+                const [singleBlog, blogs] = await Promise.all([
+                    getSlugBlog(slug),
+                    getAllBlogs(),
+                ]);
+
+                setBlog(singleBlog);
+                setAllBlogs(blogs);
             } catch (error) {
-                console.error("Failed to fetch blogs:", error.message);
+                console.error(error);
             } finally {
                 setLoading(false);
             }
         };
-        fetchBlogs();
-    }, []);
 
+        fetchData();
+    }, [slug]);
     if (loading) {
         return (
             <Layout>
@@ -40,7 +45,7 @@ const ArticleDetails = () => {
         );
     }
 
-    const data = blogs.find((article) => article.slug === slug);
+    const data = blog;
 
     if (!data) {
         return (
@@ -67,9 +72,9 @@ const ArticleDetails = () => {
                 <SEO
                     title={`${data.title} | InspireByte Articles`}
                     description={data.excerpt}
-                    keywords={`InspireByte, ${data.category}, ${data.tags.join(
-                        ", "
-                    )}`}
+                    keywords={`InspireByte, ${data.category}, ${(
+                        data.tags || []
+                    ).join(", ")}`}
                     image={data.thumbnail}
                     author={data.author}
                 />
@@ -80,7 +85,7 @@ const ArticleDetails = () => {
                         excerpt={data.excerpt}
                         image={data.thumbnail}
                     />
-                    <ArticleDetailsContainer data={data} allBlogs={blogs} />
+                    <ArticleDetailsContainer data={data} allBlogs={allBlogs} />
                     <Footer />
                     <ScrollToTop />
                 </div>
